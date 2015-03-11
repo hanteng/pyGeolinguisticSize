@@ -6,7 +6,7 @@ from __future__ import (absolute_import, division, print_function,
 # This is the only place the version is specified and 
 # used in both setup.py and docs/conf.py to set the 
 # version of ggplot.
-__version__ = '0.0.0.2'
+__version__ = '0.0.0.3'
 
-from .sizedb import (mapping, langname, territory, size_gl, size_l, pgviews_wiki)
+from .sizedb import (mapping, langname, territory, size_gl, size_l, size_l_wiki, pgviews_wiki)
 

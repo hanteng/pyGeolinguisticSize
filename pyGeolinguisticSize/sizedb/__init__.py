@@ -5,7 +5,7 @@ from __future__ import (absolute_import, division, print_function,
 import pandas as pd
 import os
 
-__all__ = ["mapping", "langname", "territory", "size_gl", "size_l", "pgviews_wiki"]
+__all__ = ["mapping", "langname", "territory", "size_gl", "size_l", "size_l_wiki", "pgviews_wiki"]
 __all__ = [str(u) for u in __all__]
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
