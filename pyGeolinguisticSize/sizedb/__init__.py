@@ -5,16 +5,17 @@ from __future__ import (absolute_import, division, print_function,
 import pandas as pd
 import os
 
-__all__ = ["mapping", "langname", "size_gl", "size_l", "pgviews_wiki"]
+__all__ = ["mapping", "langname", "territory", "size_gl", "size_l", "pgviews_wiki"]
 __all__ = [str(u) for u in __all__]
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
 
 from os.path import basename, join, splitext
 
-mapping=pd.read_pickle(os.path.join(_ROOT, "mapping.pkl"))
-fn_output=os.path.join(_ROOT,"size.pkl")
-size_gl=pd.read_pickle(fn_output)
+mapping  =pd.read_pickle(os.path.join(_ROOT,"mapping.pkl"))
+size_gl  =pd.read_pickle(os.path.join(_ROOT,"size.pkl"))
+territory=pd.read_pickle(os.path.join(_ROOT,"territory.pkl"))
+
 size_gl=size_gl.set_index('c').sort(columns=['IPop'], ascending=False)
 
 ## Language names
