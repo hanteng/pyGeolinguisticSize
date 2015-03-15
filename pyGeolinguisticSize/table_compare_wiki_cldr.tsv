@@ -1,0 +1,181 @@
+	l_code	l_name	l_name_left	exact
+0	gv	Manx	Manx	True
+1	gu	Gujarati	Gujarati	True
+2	zea	Zealandic	Zeeuws	False
+3	szl	Silesian	Silesian	True
+4	sco	Scots	Scots	True
+5	scn	Sicilian	Sicilian	True
+6	ga	Irish	Irish	True
+7	gn	Guarani	Guarani	True
+8	gl	Galician	Galician	True
+9	lg	Ganda	Ganda	True
+10	hak	Hakka	Hakka Chinese	False
+11	lb	Luxembourgish	Luxembourgish	True
+12	wuu	Wu	Wu Chinese	False
+13	vep	Vepsian	Veps	False
+14	la	Latin	Latin	True
+15	ln	Lingala	Lingala	True
+16	lo	Laotian	Lao	False
+17	tt	Tatar	Tatar	True
+18	tr	Turkish	Turkish	True
+19	ts	Tsonga	Tsonga	True
+20	li	Limburgish	Limburgish	True
+21	tn	Setswana	Tswana	False
+22	lt	Lithuanian	Lithuanian	True
+23	vec	Venetian	Venetian	True
+24	th	Thai	Thai	True
+25	te	Telugu	Telugu	True
+26	ksh	Ripuarian	Colognian	False
+27	pcd	Picard	Picard	True
+28	ta	Tamil	Tamil	True
+29	yi	Yiddish	Yiddish	True
+30	ceb	Cebuano	Cebuano	True
+31	yo	Yoruba	Yoruba	True
+32	de	German	German	True
+33	da	Danish	Danish	True
+34	new	Nepal Bhasa	Newari	False
+35	bar	Bavarian	Bavarian	True
+36	vls	West Flemish	Vlaams	False
+37	qu	Quechua	Quechua	True
+38	gd	Scots Gaelic	Scottish Gaelic	False
+39	bpy	Bishnupriya Manipuri	Bishnupriya	False
+40	el	Greek	Greek	True
+41	eo	Esperanto	Esperanto	True
+42	en	English	English	True
+43	pms	Piedmontese	Piemontese	False
+44	km	Khmer	Khmer	True
+45	arz	Egyptian Arabic	Egyptian Arabic	True
+46	fr	French	French	True
+47	et	Estonian	Estonian	True
+48	eu	Basque	Basque	True
+49	zu	Zulu	Zulu	True
+50	tet	Tetum	Tetum	True
+51	es	Spanish	Spanish	True
+52	ru	Russian	Russian	True
+53	si	Sinhala	Sinhala	True
+54	it	Italian	Italian	True
+55	rm	Romansh	Romansh	True
+56	ro	Romanian	Romanian	True
+57	dsb	Lower Sorbian	Lower Sorbian	True
+58	bn	Bengali	Bengali	True
+59	hsb	Upper Sorbian	Upper Sorbian	True
+60	be	Belarusian	Belarusian	True
+61	bg	Bulgarian	Bulgarian	True
+62	ba	Bashkir	Bashkir	True
+63	wa	Walloon	Walloon	True
+64	ast	Asturian	Asturian	True
+65	wo	Wolof	Wolof	True
+66	jv	Javanese	Javanese	True
+67	bo	Tibetan	Tibetan	True
+68	bi	Bislama	Bislama	True
+69	rue	Rusyn	Rusyn	True
+70	br	Breton	Breton	True
+71	lmo	Lombard	Lombard	True
+72	lez	Lezgian	Lezghian	False
+73	ja	Japanese	Japanese	True
+74	om	Oromo	Oromo	True
+75	glk	Gilaki	Gilaki	True
+76	ace	Acehnese	Achinese	False
+77	ilo	Ilokano	Iloko	False
+78	oc	Occitan	Occitan	True
+79	krc	Karachay-Balkar	Karachay-Balkar	True
+80	nds	Low Saxon	Low German	False
+81	os	Ossetic	Ossetic	True
+82	or	Oriya	Oriya	True
+83	xh	Xhosa	Xhosa	True
+84	co	Corsican	Corsican	True
+85	bjn	Banjar	Banjar	True
+86	ca	Catalan	Catalan	True
+87	ce	Chechen	Chechen	True
+88	cy	Welsh	Welsh	True
+89	sah	Sakha	Sakha	True
+90	cs	Czech	Czech	True
+91	cv	Chuvash	Chuvash	True
+92	cu	Old Church Slavonic	Church Slavic	False
+93	koi	Komi-Permyak	Komi-Permyak	True
+94	lv	Latvian	Latvian	True
+95	he	Hebrew	Hebrew	True
+96	pt	Portuguese	Portuguese	True
+97	frr	North Frisian	Northern Frisian	False
+98	frp	Arpitan	Arpitan	True
+99	war	Waray-Waray	Waray	False
+100	pl	Polish	Polish	True
+101	hy	Armenian	Armenian	True
+102	hr	Croatian	Croatian	True
+103	ht	Haitian	Haitian	True
+104	hu	Hungarian	Hungarian	True
+105	gan	Gan	Gan Chinese	False
+106	hi	Hindi	Hindi	True
+107	bug	Buginese	Buginese	True
+108	udm	Udmurt	Udmurt	True
+109	mg	Malagasy	Malagasy	True
+110	fur	Friulian	Friulian	True
+111	ml	Malayalam	Malayalam	True
+112	mi	Maori	Maori	True
+113	as	Assamese	Assamese	True
+114	mk	Macedonian	Macedonian	True
+115	ur	Urdu	Urdu	True
+116	mt	Maltese	Maltese	True
+117	stq	Saterland Frisian	Saterfriesisch	False
+118	uk	Ukrainian	Ukrainian	True
+119	mr	Marathi	Marathi	True
+120	haw	Hawai'ian	Hawaiian	False
+121	my	Burmese	Burmese	True
+122	mzn	Mazandarani	Mazanderani	False
+123	ab	Abkhazian	Abkhazian	True
+124	af	Afrikaans	Afrikaans	True
+125	vi	Vietnamese	Vietnamese	True
+126	is	Icelandic	Icelandic	True
+127	am	Amharic	Amharic	True
+128	ps	Pashto	Pashto	True
+129	myv	Erzya	Erzya	True
+130	ay	Aymara	Aymara	True
+131	ik	Inupiak	Inupiaq	False
+132	ar	Arabic	Arabic	True
+133	su	Sundanese	Sundanese	True
+134	av	Avar	Avaric	False
+135	ia	Interlingua	Interlingua	True
+136	st	Sesotho	Southern Sotho	False
+137	id	Indonesian	Indonesian	True
+138	ig	Igbo	Igbo	True
+139	pap	Papiamentu	Papiamento	False
+140	nl	Dutch	Dutch	True
+141	nn	Nynorsk	Norwegian Nynorsk	False
+142	min	Minangkabau	Minangkabau	True
+143	na	Nauruan	Nauru	False
+144	ne	Nepali	Nepali	True
+145	lij	Ligurian	Ligurian	True
+146	csb	Cassubian	Kashubian	False
+147	nap	Neapolitan	Neapolitan	True
+148	pag	Pangasinan	Pangasinan	True
+149	so	Somali	Somali	True
+150	pam	Kapampangan	Pampanga	False
+151	nv	Navajo	Navajo	True
+152	sn	Shona	Shona	True
+153	kab	Kabyle	Kabyle	True
+154	kaa	Karakalpak	Kara-Kalpak	False
+155	lad	Ladino	Ladino	True
+156	fy	Frisian	Western Frisian	False
+157	sv	Swedish	Swedish	True
+158	fa	Persian	Persian	True
+159	fi	Finnish	Finnish	True
+160	tyv	Tuvan	Tuvinian	False
+161	fo	Faroese	Faroese	True
+162	ka	Georgian	Georgian	True
+163	ckb	Sorani	Sorani Kurdish	False
+164	pdc	Pennsylvania German	Pennsylvania German	True
+165	sq	Albanian	Albanian	True
+166	ko	Korean	Korean	True
+167	kn	Kannada	Kannada	True
+168	tpi	Tok Pisin	Tok Pisin	True
+169	kl	Greenlandic	Kalaallisut	False
+170	sk	Slovak	Slovak	True
+171	ext	Extremaduran	Extremaduran	True
+172	kw	Cornish	Cornish	True
+173	kv	Komi	Komi	True
+174	mrj	Western Mari	Western Mari	True
+175	sl	Slovene	Slovenian	False
+176	sc	Sardinian	Sardinian	True
+177	sa	Sanskrit	Sanskrit	True
+178	sw	Swahili	Swahili	True
+179	se	Northern Sami	Northern Sami	True

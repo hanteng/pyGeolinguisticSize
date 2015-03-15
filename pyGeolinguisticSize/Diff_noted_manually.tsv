@@ -1,0 +1,56 @@
+	l_code	l_name	Note
+0	pih	Norfolk	Not in CLDR T-L: pih
+1	ang	Anglo-Saxon	Not in CLDR T-L: ang
+2	zh	Chinese	Yes:zh_Hant + zh_Hans
+3	simple	Simple English	Not in CLDR T-L
+4	cdo	Min Dong	Not in CLDR T-L: cdo
+5	iu	Inuktitut	Yes:iu_Latn+iu_Cans
+6	vo	Volapük	Not in CLDR T-L:vo
+7	arc	Aramaic	Not in CLDR T-L:arc
+8	io	Ido	Not in CLDR T-L:io
+9	roa-rup	Aromanian	Not in CLDR T-L: rup
+10	mn	Mongolian	Yes:mn_Cyrl + mn_Cyrl
+11	ie	Interlingue	Not in CLDR T-L: ie
+12	als	Alemannic	Yes:gsw
+13	nds-nl	Dutch Low Saxon	Not in CLDR T-L: no ISO code for this Dutch dialect
+14	ha	Hausa	Not in CLDR T-L: ha
+15	no	Norwegian	nb + nn
+16	tw	Twi	Not in CLDR T-L: tw
+17	nah	Nahuatl	Not in CLDR T-L: nih
+18	az	Azeri	Yes:az_Arab + az_Cyrl + az_Latn
+19	cbk-zam	Chavacano	Not in CLDR T-L: cbk
+20	zh-min-nan	Min Nan	Yes:nan
+21	tl	Tagalog	Yes:fil
+22	pa	Punjabi	Yes:pa_Arab+pa_Arab
+23	tk	Turkmen	Yes:tk_Latn
+24	tg	Tajik	Yes:tg_Arab+tg_Cyrl
+25	an	Aragonese	Not in CLDR T-L: an
+26	mwl	Mirandese	Not in CLDR T-L: mwl
+27	be-x-old		Not in CLDR T-L:classical orthography
+28	ku	Kurdish	Yes:ku_Arab+ku_Latn
+29	zh-yue	Cantonese	Not in CLDR T-L:yyef
+30	bh	Bihari	Not in CLDR T-L:bh
+31	jbo	Lojban	Not in CLDR T-L:jbo
+32	bat-smg	Samogitian	Not in CLDR T-L:sgs
+33	hif	Fiji Hindi	Specific:hi-FJ
+34	bs	Bosnian	Yes:bs_Cyrl+bs_Latn
+35	nov	Novial	Not in CLDR T-L:nov
+36	pnb	Western Panjabi	Yes:pa_Arab
+37	ug	Uyghur	ug_Arab+ug_Cyrl
+38	zh-classical	Classical Chinese	Not in CLDR T-L:classical orthography
+39	bcl	Central Bicolano	Yes:bhk
+40	uz	Uzbek	Yes:uz_Arab+uz_Cyrl+uz_Latn
+41	kk	Kazakh	Yes:kk_Arab+kk_Cyrl
+42	eml	Emilian-Romagnol	Not in CLDR T-L: egl+rgn
+43	bxr	Buryat	Not in CLDR T-L: bua
+44	fiu-vro	Voro	Not in CLDR T-L: bua
+45	ky	Kirghiz	Yes:ky_Arab+ky_Cyrl+ky_Latn
+46	sr	Serbian	Yes:sr_Cyrl+sr_Latn
+47	sh	Serbo-Croatian	Yes:hr+sr_Cyrl+sr_Latn+bs_Cyrl+bs_Latn
+48	ms	Malay	Yes:ms_Arab+ms_Latn
+49	roa-tara	Tarantino	Not in CLDR T-L: no ISO
+50	map-bms	Banyumasan	Not in CLDR T-L: no ISO
+51	crh	Crimean Tatar	Not in CLDR T-L: crh
+52	mhr	Eastern Mari	Not in CLDR T-L: mhr
+53	diq	Zazaki	Yes:zza
+54	sd	Sindhi	Yes:sd_Arab+sd_Deva
