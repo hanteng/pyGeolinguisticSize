@@ -129,18 +129,23 @@ for i,x_name in enumerate(x_possible):      #x_name='PPPGDP'
 
         
         df_draw['y_est']=sm_lm(df_draw.x.values, df_draw.y.values)
+        df_draw['y_deviation']=(df_draw.y-df_draw.y_est)
         df_draw['y_deviation_perc']=(df_draw.y-df_draw.y_est)/df_draw.y_est
 
 
         df01=df_draw.sort(['y',], ascending=[0,])[['l_code', 'y', 'y_est','y_deviation_perc']]
         df02=df_draw.sort(['y_deviation_perc',], ascending=[0,])[['l_code', 'y', 'y_est','y_deviation_perc']]
+        df03=df_draw.sort(['y_deviation',], ascending=[0,])[['l_code', 'y', 'y_est','y_deviation']]
         df01['ranking']=[x+1 for x in range(len(df01))]
         df02['ranking']=[x+1 for x in range(len(df02))]
+        df03['ranking']=[x+1 for x in range(len(df03))]
         fn="Dt_{0}_{1}_before.tsv".format(y_name,x_name)
-        df01.set_index("l_code").to_csv(fn, sep='\t')
+        df01.set_index("l_code").to_csv(fn, sep='\t', float_format='%.3f')
         fn="Dt_{0}_{1}_after.tsv".format(y_name,x_name)
-        df02.set_index("l_code").to_csv(fn, sep='\t')
-
+        df02.set_index("l_code").to_csv(fn, sep='\t', float_format='%.3f')
+        fn="Dt_{0}_{1}_after_absolute.tsv".format(y_name,x_name)
+        df03.set_index("l_code").to_csv(fn, sep='\t', float_format='%.3f')
+        
         fn="Dt_{0}_{1}.png".format(y_name,x_name)
         print "debug::", allTheLetters[counting-1], ", filename:",fn #dict_size_rv[x_name]
 
