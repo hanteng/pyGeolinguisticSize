@@ -137,9 +137,9 @@ for i,x_name in enumerate(x_possible):      #x_name='PPPGDP'
         df01['ranking']=[x+1 for x in range(len(df01))]
         df02['ranking']=[x+1 for x in range(len(df02))]
         fn="Dt_{0}_{1}_before.tsv".format(y_name,x_name)
-        df01.to_csv(fn)
+        df01.set_index("l_code").to_csv(fn, sep='\t')
         fn="Dt_{0}_{1}_after.tsv".format(y_name,x_name)
-        df02.to_csv(fn)
+        df02.set_index("l_code").to_csv(fn, sep='\t')
 
         fn="Dt_{0}_{1}.png".format(y_name,x_name)
         print "debug::", allTheLetters[counting-1], ", filename:",fn #dict_size_rv[x_name]
