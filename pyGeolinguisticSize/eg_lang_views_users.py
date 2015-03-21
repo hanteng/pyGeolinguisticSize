@@ -3,16 +3,11 @@
 import pandas as pd
 import pyGeolinguisticSize
 
-
-
-v_indep=pyGeolinguisticSize.size_l_wiki['IPop'][2013]
-v_dep=pyGeolinguisticSize.wiki_pageviews['pgviews']
-
 ## Target l_codes
 #interpolation
 panel_x=pyGeolinguisticSize.size_l_wiki.loc[:,:,:].apply(pd.Series.interpolate, axis=1)
 
-x_order=['PPPGDP', 'IPop', 'LP']#, u'IPv4', 'IH' ]
+x_order=[u'IPop', u'LP',u'PPPGDP']#, u'IPv4', 'IH' ]
 df_x=panel_x.loc[x_order,:,2013]
 df_y=pyGeolinguisticSize.wiki_pageviews[['pgviews']]
 
@@ -33,24 +28,15 @@ observed=df_y.loc[l_code_target]
 o=df_x.loc[l_code_target]
 
 ## Constructing an integrated dataframe df_all
-for i,x in enumerate(x_possible):     #x="IPop"
-    for j,y in enumerate(y_possible): #y='pgviews'
-        y_select=observed[y]
-        x_select=o[x]
-        df_y=pd.DataFrame(y_select, index=y_select.keys())
-        df_x=pd.DataFrame(x_select, index=x_select.keys())
-        df=df_y.join(df_x)
-        df.columns=['y','x']
-        df['y_attr']=y_select.name
-        df['x_attr']=x_select.name
-        df=df.dropna(axis=0) #remove rows with na
-        df=df.reset_index()
-        if i==0 and j==0:
-            df_all=df.copy(deep=True) #Make a copy of this object
-        else:
-            df_all=pd.concat([df_all,df], ignore_index=True)
+df_=df_y.join(df_x).dropna(axis=0, thresh=2).reset_index()##
+d=pd.melt(df_, id_vars=['l_code','pgviews'], var_name="x_attr" ,value_name="x")
+d=pd.melt(d, value_vars=['pgviews'],id_vars=['l_code','x_attr', 'x'], var_name="y_attr" ,value_name="y")
+print len(d) 
+df_all=d
+df_all['y']=df_all['y'].astype(object)#formatting output
 
-
+df_all['l_code']=[str(x) for x in df_all['l_code']]  #Unknown bug here in l_code, lxml related  AssertionError: invalid Element proxy at 185990984
+df_all=df_all[df_all.x>0]                            #Remove x values= zero
 
 # Customizing figures
 import matplotlib as mpl
@@ -97,11 +83,9 @@ def sm_lm(x,y):
 
 timeperiod=pyGeolinguisticSize.wiki_pageviews['timeperiod'][0]
 for i,x_name in enumerate(x_possible):      #x_name='PPPGDP'
-    df_draw=df_all.copy()
     for j,y_name in enumerate(y_possible):  #y_name='pgviews'
-        df_draw=df_draw[df_draw['y_attr']==y_name]
-        df_draw=df_draw[df_draw['x_attr']==x_name].reset_index()
-        #ggplot_one(x_name, y_name, df_draw)
+
+        df_draw=df_all[(df_all.x_attr==x_name) &(df_all.y_attr==y_name)].copy()
 
         df_size_dx=pd.algos.kth_smallest(df_draw['x'].values.astype(float), len(df_draw['x'].values) - 1)  #1 all   3 minus the biggest 2
         #df_draw['x'].quantile(q=.88)#max()*.5#.quantile(q=.88)
@@ -111,7 +95,8 @@ for i,x_name in enumerate(x_possible):      #x_name='PPPGDP'
         #slope of the expected value line, using the first value
         #slope_=d_perc[y_name][dict_size_rv[x_name]][df_draw['ISO'].values[0]]/df_size[x_name][df_draw['ISO'].values[0]]
 
-        p_d = ggplot(aes(x='x', y='y', label=df_draw['l_code'].values), data=df_draw)
+        df_draw=df_draw.set_index('l_code')
+        p_d = ggplot(aes(x='x', y='y', label=list(df_draw.index)), data=df_draw)
         ##Detail plotting: xlim setting            ylim(0,df_size_dy)+\
 
         
@@ -122,34 +107,40 @@ for i,x_name in enumerate(x_possible):      #x_name='PPPGDP'
             ylim(0,df_size_dy*1.05)+\
             xlim(0,df_size_dx*1.08)+\
             labs(x = x_name.replace("_"," ")+"\n("+allTheLetters[counting]+")", \
-                y = y_name.replace("_"," ").capitalize() + ":" + timeperiod + "(Millions)")+\
+            y = y_name.replace("_"," ").capitalize() + ":" + timeperiod + "(Millions)")+\
             theme_matplotlib()+ theme(axis_text_x  = element_text(size=font_size_geom_text*0.8, angle = 30, hjust = 1))
-           #labs(x = "Size Indicators: \n"+x_name.replace("_"," "), y = "Cyber Incidents: "+y_name.replace("_"," ")) +\
-        counting=counting+1
+            #theme_bw()+ theme(axis_text_x  = element_text(size=font_size_geom_text*0.8, angle = 30, hjust = 1))
+            #labs(x = "Size Indicators: \n"+x_name.replace("_"," "), y = "Cyber Incidents: "+y_name.replace("_"," ")) +\
 
+        counting=counting+1
         
         df_draw['y_est']=sm_lm(df_draw.x.values, df_draw.y.values)
         df_draw['y_deviation']=(df_draw.y-df_draw.y_est)
         df_draw['y_deviation_perc']=(df_draw.y-df_draw.y_est)/df_draw.y_est
 
+        dfo=dict()
 
-        df01=df_draw.sort(['y',], ascending=[0,])[['l_code', 'y', 'y_est','y_deviation_perc']]
-        df02=df_draw.sort(['y_deviation_perc',], ascending=[0,])[['l_code', 'y', 'y_est','y_deviation_perc']]
-        df03=df_draw.sort(['y_deviation',], ascending=[0,])[['l_code', 'y', 'y_est','y_deviation']]
-        df01['ranking']=[x+1 for x in range(len(df01))]
-        df02['ranking']=[x+1 for x in range(len(df02))]
-        df03['ranking']=[x+1 for x in range(len(df03))]
+        dfo[1]=df_draw.sort(['y',], ascending=[0,])[['y', 'y_est','y_deviation_perc']]
+        dfo[2]=df_draw.sort(['y_deviation',], ascending=[0,])[['y', 'y_est','y_deviation']]
+        dfo[3]=df_draw.sort(['y_deviation_perc',], ascending=[0,])[['y', 'y_est','y_deviation_perc']]
+        dfo[1]['ranking']=[x+1 for x in range(len(dfo[1]))]
+        dfo[2]['ranking']=[x+1 for x in range(len(dfo[2]))]
+        dfo[3]['ranking']=[x+1 for x in range(len(dfo[3]))]
+
+
+        for i,ll in enumerate(['y','y_deviation','y_deviation_perc']):
+            dfo[i+1][ll] = dfo[i+1][ll].map(lambda x: '%0.3f' % x)
+
         fn="Dt_{0}_{1}_before.tsv".format(y_name,x_name)
-        df01.set_index("l_code").to_csv(fn, sep='\t', float_format='%.3f')
+        dfo[1].to_csv(fn, sep='\t', float_format='%.3f',index_label="l_code")
         fn="Dt_{0}_{1}_after.tsv".format(y_name,x_name)
-        df02.set_index("l_code").to_csv(fn, sep='\t', float_format='%.3f')
+        dfo[2].to_csv(fn, sep='\t', float_format='%.3f',index_label="l_code")
         fn="Dt_{0}_{1}_after_absolute.tsv".format(y_name,x_name)
-        df03.set_index("l_code").to_csv(fn, sep='\t', float_format='%.3f')
+        dfo[3].to_csv(fn, sep='\t', float_format='%.3f',index_label="l_code")
         
         fn="Dt_{0}_{1}.png".format(y_name,x_name)
         print "debug::", allTheLetters[counting-1], ", filename:",fn #dict_size_rv[x_name]
 
         ggsave(p, fn)#dict_size_rv[x_name]
 
-        
-        
+         
