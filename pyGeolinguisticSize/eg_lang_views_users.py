@@ -133,9 +133,9 @@ for i,x_name in enumerate(x_possible):      #x_name='PPPGDP'
 
         fn="Dt_{0}_{1}_before.tsv".format(y_name,x_name)
         dfo[1].to_csv(fn, sep='\t', float_format='%.3f',index_label="l_code")
-        fn="Dt_{0}_{1}_after.tsv".format(y_name,x_name)
-        dfo[2].to_csv(fn, sep='\t', float_format='%.3f',index_label="l_code")
         fn="Dt_{0}_{1}_after_absolute.tsv".format(y_name,x_name)
+        dfo[2].to_csv(fn, sep='\t', float_format='%.3f',index_label="l_code")
+        fn="Dt_{0}_{1}_after.tsv".format(y_name,x_name)
         dfo[3].to_csv(fn, sep='\t', float_format='%.3f',index_label="l_code")
         
         fn="Dt_{0}_{1}.png".format(y_name,x_name)
