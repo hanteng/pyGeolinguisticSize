@@ -6,10 +6,16 @@ from lxml.html import fromstring, tostring, parse
 from io import StringIO, BytesIO
 import pandas as pd
 
+import logging
+
 import os
 os.chdir("..")
-import ConfigParser
-Config = ConfigParser.ConfigParser()
+try:
+    import configparser
+except ImportError:
+    import ConfigParser as configparser
+
+Config = configparser.ConfigParser()
 Config.read("config.ini")
 
 dir_source = Config.get("Directory", 'source')
@@ -30,37 +36,24 @@ from ftfy import fix_text
 import codecs
 
 try:
-    with codecs.open(fn_operating, "r", "utf8") as f:
+    with codecs.open(fn_operating, "r", XML_encoding) as f:
         output=f.read()
     tree = fromstring(fix_text(output))
 except:
-    import os
-    from selenium import webdriver
+    import requests
 
-    chromedriver = "C:/Python27/chromedriver"
-    os.environ["webdriver.chrome.driver"] = chromedriver
-    browser = webdriver.Chrome(chromedriver)
-    browser.get(data_src)
+    r = requests.get(data_src, stream=True)
+    r.raw.decode_content = True
 
-    content = browser.page_source.encode(XML_encoding, 'ignore')
-    desired_content_is_loaded = False;
+    if not( r.status_code == 200):
+        logging.warning ("Downloading the data from {0} failed. Plese check Internet connections.".format(XML_src_url))
+        exit()
 
-    from datetime import datetime
-    tstart = datetime.now()
-    tdiff=datetime.now()-tstart
-
-    while (tdiff.seconds<5):
-        content = browser.page_source
-        tdiff=datetime.now()-tstart
-        print "{0}\t".format(tdiff.seconds),
-              
-    browser.quit()
-
-    XML_src=content
-    with codecs.open(fn_operating, "w", "utf8") as f:
-        f.write(fix_text(XML_src.encode(XML_encoding)))
+    XML_src=r.content
+    with codecs.open(fn_operating, "w", XML_encoding) as f:
+        f.write(XML_src.decode(XML_encoding))
         
-    tree = document_fromstring(XML_src)
+    tree = fromstring(XML_src)
 
 
 
@@ -68,9 +61,9 @@ except:
 import pandas as pd
 
 mapping_x_path={\
-                "l_code":'''tr[4]/td/b/a//text()''',\
-                "timeperiod":'''td[1]/text()''',\
-                "pgviews": '''td/span[2]//text()''',\
+                "l_code":'''tr/td[5]/a//text()''',\
+                "timeperiod":'''td[1]/b//text()''',\
+                "pgviews": '''tr/td[11]/text()''',\
                 }
 #285 //*[@id="table1"]/tbody/tr[4]/td/b/a
 #286 //*[@id="table1"]/tbody/tr[13]/td
@@ -78,45 +71,32 @@ mapping_x_path={\
 outcomes=[]
 
 # Get "l_code" first
-list_matched = tree.xpath('//*[@id="table1"]/tbody')#/tbody won't work with the downloaded xml
+list_matched = tree.xpath('//*[@id="table2"]/tbody')#/tbody won't work with the downloaded xml
 m=list_matched[0]
 i="l_code"
 content= m.xpath(mapping_x_path[i])
-#len(content)=284
+#len(content)=244
 l_code=content
-
 l_code[0]="ALL"
 
-list_matched = tree.xpath('//*[@id="table1"]/tbody/tr[13]')
-m=list_matched[0]
-i="timeperiod"
-content= m.xpath(mapping_x_path[i])
-timeperiod=content[0].replace(u'\xa0',u' ')
-
-def convertback(s):
-    try:
-        n,unit=s.split(u' ')
-    except:
-        try:
-            s=float(s)
-            return(s)
-        except:
-            #print s
-            return None
-    num=float(n.replace(",",""))
-    if unit=="k":
-       return num/(10**3)#num*10**3
-    if unit=="M":
-       return num#num*10**6
 
 i="pgviews"
 content= m.xpath(mapping_x_path[i])
-#len(content)=285
-pgviews=[convertback(x) for x in content]
+#len(content)=244
+pgviews=[float(x.replace(',','')) for x in content]
 
-r={"pgviews":pgviews,"l_code":l_code,"timeperiod":[timeperiod]*285}
+list_matched = tree.xpath('''//*[@summary="Page header"]//tr[1]/td[1]/b/text()''')
+m=list_matched[0]
+i="timeperiod"
+content= m
+timeperiod=content.replace(u'\xa0',u' ')
+
+r={"pgviews":pgviews,"l_code":l_code,"timeperiod":[timeperiod]*len(l_code)}
 df=pd.DataFrame(r)
 
 
 df=df.set_index('l_code')
-df.to_pickle(os.path.join(dir_outcome,fn_output))
+file_output=os.path.join(dir_outcome,fn_output)
+df.to_pickle(file_output)
+file_output=file_output.replace(".pkl",".tsv")
+df.to_csv(file_output, sep='\t', encoding="utf8", index=True)

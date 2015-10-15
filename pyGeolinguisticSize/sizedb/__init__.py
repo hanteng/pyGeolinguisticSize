@@ -59,10 +59,12 @@ except:
     sizel=dict()
     for indicator in list_indicators:
         dfo=size_gl[indicator].reset_index()
-        osize_l=dfo.groupby(['type']).sum()
+        osize_l=dfo[["type"]+list (range(2000,2013+1))].groupby(['type']).sum()
         osize_l["l_name"]=[langname[x] for x in osize_l.index]
-        osize_l.drop(['c_code','populationPercent'], axis=1, inplace=True)
-        osize_l["geo"]=[[x[i:i+2] for i in range(0, len(x), 2)] for x in osize_l.geo]
+        #osize_l.drop(['c_code','populationPercent'], axis=1, inplace=True)
+        
+        osize_lg=dfo[["type"]+["geo"]].groupby(['type']).sum()
+        osize_l["geo"]=[[x[i:i+2] for i in range(0, len(x), 2)] for x in osize_lg.geo]
         #exit()        
         sizel[indicator]=osize_l
         #size_l=size_gl[indicator].groupby(['type']).sum()[list_indicators].sort(columns=['IPop'], ascending=False)
@@ -84,7 +86,7 @@ mn     NaN    0.951459  NaN   5.364831  49.92671
 als    NaN    1.307198  NaN   1.539666  74.89924
 az     NaN    11.54916  NaN   28.38094  469.3428
 
->>> size_l_wiki.loc['IPop',:,:].head()[['geo']+range(2000,2013+1)]
+>>> size_l_wiki.loc['IPop',:,:].head()[['geo']+list(range(2000,2013+1))]
                                                      geo        2000  \
 index                                                                  
 zh     [AU, BN, GB, GF, HK, ID, MO, MY, PA, PF, PH, S...    31.23139   

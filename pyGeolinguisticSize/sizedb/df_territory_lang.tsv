@@ -1,0 +1,1308 @@
+serial	c_code	l_name	officialStatus	populationPercent	references	type	writingPercent	geo
+0	AC	English		99	R1020	en		AC
+1	AD	Catalan	official	51		ca		AD
+2	AD	Spanish		43		es		AD
+3	AD	French		6.8		fr		AD
+4	AE	Arabic	official	78		ar		AE
+5	AE	Malayalam		7		ml		AE
+6	AE	Pashto		2.9		ps		AE
+7	AE	Baluchi		2.3		bal		AE
+8	AE	Persian		1.9		fa		AE
+9	AF	Persian	official	50		fa		AF
+10	AF	Pashto	official	43	R1055	ps		AF
+11	AF	Hazaragi		5.9		haz		AF
+12	AF	Uzbek (Arabic)	official_regional	4.7		uz_Arab		AF
+13	AF	Turkmen (Latin)	official_regional	1.7		tk_Latn		AF
+14	AF	Parsi-Dari		1.2		prd		AF
+15	AF	Baluchi	official_regional	0.67		bal		AF
+16	AF	Uyghur (Arabic)		0.0094	R1165	ug_Arab		AF
+17	AF	Kazakh (Arabic)		0.0063	R1119	kk_Arab		AF
+18	AG	English	official	86		en		AG
+19	AG	Portuguese		1.8		pt		AG
+20	AI	English	official	95		en		AI
+21	AL	Albanian	official	100		sq		AL
+22	AL	Greek		1.9		el		AL
+23	AL	Macedonian		0.47		mk		AL
+24	AM	Armenian	official	98		hy		AM
+25	AM	Kurdish (Latin)		3.3		ku_Latn		AM
+26	AM	Azerbaijani (Latin)		0	R1290	az_Latn		AM
+27	AO	Portuguese	official	67		pt		AO
+28	AO	Umbundu		29		umb		AO
+29	AO	Kimbundu		25	R1034	kmb	10	AO
+30	AO	Lingala		0.67	R1010	ln		AO
+31	AQ	Unknown Language		100	R1060	und		AQ
+32	AR	Spanish	official	100		es		AR
+33	AR	English		7		en		AR
+34	AR	Welsh		0.066		cy		AR
+35	AR	Guarani		0.047		gn		AR
+36	AS	Samoan	official	99		sm		AS
+37	AS	English	de_facto_official	97		en		AS
+38	AT	German	official	97		de		AT
+39	AT	Bavarian		95		bar		AT
+40	AT	English		73		en		AT
+41	AT	Croatian	official_regional	1.2		hr		AT
+42	AT	Slovenian	official_regional	0.37		sl		AT
+43	AT	Hungarian	official_regional	0.27		hu		AT
+44	AU	English	de_facto_official	96	R1001	en		AU
+45	AU	Chinese (Traditional)		2.1		zh_Hant		AU
+46	AU	Italian		1.9		it		AU
+47	AU	Warlpiri		0.011		wbp		AU
+48	AW	Dutch	official	97	R1000	nl		AW
+49	AW	Papiamento	official	61		pap		AW
+50	AW	English		2.7		en		AW
+51	AX	Swedish	official	99		sv		AX
+52	AZ	Azerbaijani (Latin)	official	89	R1120	az_Latn		AZ
+53	AZ	Azerbaijani (Cyrillic)	official	9.9	R1121	az_Cyrl		AZ
+54	AZ	Talysh (Latin)		9.8		tly_Latn		AZ
+55	AZ	Kurdish (Latin)		0.24		ku_Latn		AZ
+56	AZ	Muslim Tat (Latin)		0.22		ttt_Latn		AZ
+57	AZ	Tsakhur (Latin)		0.16		tkr_Latn		AZ
+58	BA	Bosnian (Cyrillic)	official	99	R1083	bs_Cyrl	5	BA
+59	BA	Bosnian (Latin)	official	99		bs_Latn		BA
+60	BA	English		45		en		BA
+61	BA	Croatian	official	12		hr		BA
+62	BA	Serbian (Cyrillic)	official	10		sr_Cyrl		BA
+63	BA	Serbian (Latin)	official	10	R1003	sr_Latn	5	BA
+64	BB	English	official	100		en		BB
+65	BD	Bengali	official	98		bn		BD
+66	BD	English		18		en		BD
+67	BD	Rangpuri		6.5	R1087	rkt	20	BD
+68	BD	Sylheti		5		syl	35	BD
+69	BD	Chakma		0.22		ccp		BD
+70	BD	Burmese		0.21		my		BD
+71	BD	Garo		0.073		grt		BD
+72	BD	Manipuri		0.011		mni		BD
+73	BE	English		59	R1052	en		BE
+74	BE	Dutch	official	55	R1004	nl		BE
+75	BE	French	official	38		fr		BE
+76	BE	West Flemish		10		vls		BE
+77	BE	Walloon		5.8	R1005	wa	5	BE
+78	BE	German	official	1.4		de		BE
+79	BF	Mossi		40	R1105	mos		BF
+80	BF	Dyula		32	R1091	dyu		BF
+81	BF	French	official	22		fr		BF
+82	BG	Bulgarian	official	100		bg		BG
+83	BG	English		25		en		BG
+84	BG	Turkish		11		tr		BG
+85	BH	Arabic	official	87	R1007	ar		BH
+86	BH	Malayalam		3.3	R1109	ml		BH
+87	BI	Rundi	official	63		rn		BI
+88	BI	French	official	59		fr		BI
+89	BI	Swahili		0.061		sw		BI
+90	BJ	French	official	35		fr		BJ
+91	BJ	Fon		25		fon		BJ
+92	BJ	Yoruba		6.7		yo		BJ
+93	BL	French	official	94		fr		BL
+94	BM	English	official	92		en		BM
+95	BN	Malay (Latin)	official	93		ms_Latn		BN
+96	BN	Chinese (Traditional)		11		zh_Hant		BN
+97	BN	Malay (Arabic)	official	5	R1219	ms_Arab		BN
+98	BN	English		1.9		en		BN
+99	BO	Spanish	official	61	R1191	es		BO
+100	BO	Quechua	official	32	R1008	qu		BO
+101	BO	Aymara	official	20		ay		BO
+102	BO	Guarani		0.45		gn		BO
+103	BO	Araona		0.001		aro		BO
+104	BQ	Papiamento		81		pap		BQ
+105	BQ	Dutch	official	8		nl		BQ
+106	BR	Portuguese	official	91		pt		BR
+107	BR	English		8		en		BR
+108	BR	German		0.84		de		BR
+109	BR	Italian		0.28		it		BR
+110	BR	Japanese		0.21		ja		BR
+111	BR	Korean		0.021		ko		BR
+112	BR	Kaingang		0.01		kgp		BR
+113	BR	Guajajára		0.0084		gub		BR
+114	BR	Nheengatu		0.0052		yrl		BR
+115	BR	Xavánte		0.0049		xav		BR
+116	BS	English	official	100		en		BS
+117	BT	Dzongkha	official	47		dz		BT
+118	BT	Nepali		17		ne		BT
+119	BT	Tshangla		15		tsj		BT
+120	BT	English		11		en		BT
+121	BT	Lepcha		3.9		lep		BT
+122	BV	Unknown Language		100		und		BV
+123	BW	English	official	81	R1009	en		BW
+124	BW	Tswana	official	62		tn		BW
+125	BW	Afrikaans		0.28		af		BW
+126	BY	Belarusian	official	100		be		BY
+127	BY	Russian	official	12		ru		BY
+128	BZ	English	official	100		en		BZ
+129	BZ	Spanish		28		es		BZ
+130	CA	English	official	86	R1194	en		CA
+131	CA	French	official	22		fr		CA
+132	CA	Italian		2	R1207	it		CA
+133	CA	German		1.9		de		CA
+134	CA	Plautdietsch		0.24		pdt		CA
+135	CA	Cree (Unified Canadian Aboriginal Syllabics)		0.11	R1063	cr_Cans		CA
+136	CA	Plains Cree		0.11	R1063	crk		CA
+137	CA	Yiddish		0.045	R1021	yi		CA
+138	CA	Inuktitut (Unified Canadian Aboriginal Syllabics)	official_regional	0.042	R1207	iu_Cans	30	CA
+139	CA	Inuktitut (Latin)	official_regional	0.042	R1207	iu_Latn	30	CA
+140	CA	Montagnais		0.033	R1063	moe		CA
+141	CA	Southern East Cree		0.021	R1063	crj		CA
+142	CA	Atikamekw		0.016	R1063	atj		CA
+143	CA	Northern East Cree		0.015	R1063	crl		CA
+144	CA	Swampy Cree		0.014	R1063	csw		CA
+145	CA	Moose Cree		0.013	R1063	crm		CA
+146	CA	Inuinnaqtun	official_regional	0.011	R1207	ikt	30	CA
+147	CA	Mohawk		0.01	R1090	moh		CA
+148	CA	Dogrib		0.0076	R1136	dgr		CA
+149	CA	Slave		0.0066		den		CA
+150	CA	North Slavey		0.0036	R1172	scs		CA
+151	CA	Naskapi		0.0034	R1063	nsk		CA
+152	CA	Chipewyan		0.0022	R1063	chp		CA
+153	CA	Gwichʼin		0.0016	R1173	gwi		CA
+154	CC	Malay (Arabic)		83		ms_Arab		CC
+155	CC	English	de_facto_official	17		en		CC
+156	CD	Swahili	official_regional	50	R1122	sw		CD
+157	CD	Luba-Lulua	official_regional	9.6	R1092	lua		CD
+158	CD	Congo Swahili		9	R1250	swc		CD
+159	CD	French	official	3.8	R1002	fr		CD
+160	CD	Lingala	official_regional	3.1		ln		CD
+161	CD	Luba-Katanga		2.3	R1093	lu		CD
+162	CD	Kongo	official_regional	1.5		kg		CD
+163	CD	Mongo		0.61		lol		CD
+164	CD	Kinyarwanda		0.38		rw		CD
+165	CF	French	official	49		fr		CF
+166	CF	Sango	official	49	R1011	sg		CF
+167	CF	Lingala		0.24		ln		CF
+168	CG	French	official	84		fr		CG
+169	CG	Lingala		2.4		ln		CG
+170	CH	German	official	73		de		CH
+171	CH	English		61	R1137	en		CH
+172	CH	French	official	21	R1137	fr		CH
+173	CH	Swiss German	de_facto_official	12	R1006	gsw	5	CH
+174	CH	Italian	official	4.3		it		CH
+175	CH	Lombard		4.1	R1086	lmo	5	CH
+176	CH	Romansh	official_regional	0.5	R1117	rm		CH
+177	CH	Sinte Romani		0.29		rmo		CH
+178	CH	Walser		0.12		wae		CH
+179	CI	French	official	49		fr		CI
+180	CI	Baoulé		11		bci	10	CI
+181	CI	Cebaara Senoufo		4.3		sef	5	CI
+182	CI	Dan		4		dnj	1	CI
+183	CI	Koro		0.23		kfo		CI
+184	CI	Koro Wachi		0.17		bqv	10	CI
+185	CK	English	official	95		en		CK
+186	CL	Spanish	official	98	R1192	es		CL
+187	CL	English		9.5		en		CL
+188	CL	Mapuche		1.5	R1287	arn		CL
+189	CM	French	official	68		fr		CM
+190	CM	English	official	38	R1013	en		CM
+191	CM	Bulu		4.6		bum		CM
+192	CM	Fulah		3.6	R1216	ff		CM
+193	CM	Ewondo		3.1	R1025	ewo	15	CM
+194	CM	Yemba		1.6	R1114	ybb	2	CM
+195	CM	Ghomala		1.4	R1147	bbj	25	CM
+196	CM	Ngiemboon		1.4	R1208	nnh	8	CM
+197	CM	Kom		1.3	R1217	bkm	5	CM
+198	CM	Basaa		1.2	R1241	bas	25	CM
+199	CM	Bamun		1.2		bax		CM
+200	CM	Medumba		1.1	R1242	byv	15	CM
+201	CM	Mundang		1		mua		CM
+202	CM	Mafa		0.73		maf		CM
+203	CM	Bafut		0.57	R1243	bfd	30	CM
+204	CM	Akoose		0.54	R1244	bss	30	CM
+205	CM	Kako		0.54		kkj		CM
+206	CM	Duala		0.48	R1245	dua	25	CM
+207	CM	Metaʼ		0.47	R1266	mgo	5	CM
+208	CM	Arabic		0.39		ar		CM
+209	CM	Ngomba		0.34	R1267	jgo	30	CM
+210	CM	Bafia		0.32		ksf		CM
+211	CM	Aghem		0.14		agq	20	CM
+212	CM	Hausa (Arabic)		0.14		ha_Arab		CM
+213	CM	Kwasio		0.039	R1246	nmg	10	CM
+214	CM	Yangben		0.0099		yav		CM
+215	CN	Chinese (Simplified)	official	90		zh_Hans		CN
+216	CN	Wu Chinese		6		wuu		CN
+217	CN	Xiang Chinese		2.9		hsn		CN
+218	CN	Hakka Chinese		2.3		hak		CN
+219	CN	Min Nan Chinese		1.9		nan		CN
+220	CN	Gan Chinese		1.7		gan		CN
+221	CN	Sichuan Yi		0.6		ii	60	CN
+222	CN	Uyghur (Arabic)	official_regional	0.55		ug_Arab		CN
+223	CN	Zhuang	official_regional	0.31		za		CN
+224	CN	Mongolian (Mongolian)	official_regional	0.26		mn_Mong		CN
+225	CN	Tibetan	official_regional	0.2		bo		CN
+226	CN	Korean	official_regional	0.15		ko		CN
+227	CN	Kazakh (Arabic)		0.086	R1123	kk_Arab		CN
+228	CN	Lisu		0.045		lis		CN
+229	CN	Kyrgyz (Arabic)		0.034		ky_Arab		CN
+230	CN	Naxi		0.024		nxq		CN
+231	CN	Lü		0.019	R1094	khb		CN
+232	CN	Tai Nüa		0.019		tdd		CN
+233	CN	Western Lawa		0.0058		lcp		CN
+234	CN	English		0.0045		en		CN
+235	CN	Russian		0.001		ru		CN
+236	CN	Vietnamese		0.0005		vi		CN
+237	CN	Uzbek (Cyrillic)		0.0004		uz_Cyrl		CN
+238	CN	Literary Chinese		0	R1150	lzh		CN
+239	CO	Spanish	official	93	R1014	es		CO
+240	CO	Wayuu		0.27		guc		CO
+241	CP	Unknown Language		100	R1062	und		CP
+242	CR	Spanish	official	95	R1193	es		CR
+243	CU	Spanish	official	100		es		CU
+244	CV	Kabuverdianu		91	R1031	kea		CV
+245	CV	Portuguese	official	76		pt		CV
+246	CW	Papiamento	de_facto_official	81	R1221	pap		CW
+247	CW	Dutch	official	8	R1221	nl		CW
+248	CW	Spanish		3.9	R1221	es		CW
+249	CX	English	official	92		en		CX
+250	CY	Greek	official	75		el		CY
+251	CY	English		73		en		CY
+252	CY	Turkish	official	23		tr		CY
+253	CY	Armenian		0.23		hy		CY
+254	CY	Arabic		0.11		ar		CY
+255	CZ	Czech	official	98		cs		CZ
+256	CZ	English		27		en		CZ
+257	CZ	German		0.49		de		CZ
+258	CZ	Polish		0.49		pl		CZ
+259	DE	German	official	91		de		DE
+260	DE	English		64		en		DE
+261	DE	French		18	R1304	fr		DE
+262	DE	Low German		12	R1167	nds	5	DE
+263	DE	Dutch		9	R1304	nl		DE
+264	DE	Italian		7	R1304	it		DE
+265	DE	Spanish		6	R1304	es		DE
+266	DE	Russian		6	R1304	ru		DE
+267	DE	Main-Franconian		6		vmf		DE
+268	DE	Turkish		2.5		tr		DE
+269	DE	Danish		2	R1306	da		DE
+270	DE	Croatian		0.79		hr		DE
+271	DE	Kurdish (Latin)		0.66		ku_Latn		DE
+272	DE	Greek		0.38		el		DE
+273	DE	Colognian		0.3	R1174	ksh		DE
+274	DE	Polish		0.29		pl		DE
+275	DE	Upper Sorbian		0.016	R1292	hsb	5	DE
+276	DE	Northern Frisian		0.012	R1095	frr		DE
+277	DE	Lower Sorbian		0.0086	R1222	dsb	5	DE
+278	DE	Eastern Frisian		0.0025	R1300	frs		DE
+279	DE	Saterland Frisian		0.0012		stq		DE
+280	DE	Palatine German		0	R1150	pfl		DE
+281	DG	English	de_facto_official	99	R1065	en		DG
+282	DJ	Afar		42		aa		DJ
+283	DJ	Somali		41		so		DJ
+284	DJ	Arabic	official	7.3		ar		DJ
+285	DJ	French	official	2.1		fr		DJ
+286	DK	Danish	official	93		da		DK
+287	DK	English		86		en		DK
+288	DK	German	official_regional	0.43	R1247	de		DK
+289	DK	Kalaallisut	official_regional	0.13		kl		DK
+290	DK	Jutish		0	R1298	jut		DK
+291	DM	English	official	94		en		DM
+292	DO	Spanish	official	78		es		DO
+293	DO	English		0.077		en		DO
+294	DZ	Algerian Arabic		83		arq		DZ
+295	DZ	Arabic	official	74		ar		DZ
+296	DZ	French	official	20	R1124	fr		DZ
+297	DZ	Kabyle		7.8	R1293	kab	10	DZ
+298	DZ	English		7		en		DZ
+299	EA	Spanish	official	98	R1067	es		EA
+300	EC	Spanish	official	96	R1210	es		EC
+301	EC	Quechua	official	17	R1288	qu		EC
+302	EC	Chimborazo Highland Quichua		5.7		qug		EC
+303	EE	Estonian	official	71		et		EE
+304	EE	Russian		30		ru		EE
+305	EE	Võro		5.7		vro		EE
+306	EG	Arabic	official	94		ar		EG
+307	EG	Egyptian Arabic		64		arz		EG
+308	EG	English		35		en		EG
+309	EG	Greek		0.061		el		EG
+310	EH	Arabic	official	100		ar		EH
+311	ER	Tigrinya	de_facto_official	60	R1223	ti		ER
+312	ER	English	official	59	R1248	en		ER
+313	ER	Tigre		18		tig		ER
+314	ER	Arabic	official	4.9	R1032	ar	5	ER
+315	ER	Afar		3.6		aa		ER
+316	ER	Saho		3.6	R1175	ssy		ER
+317	ER	Blin		1.3	R1224	byn		ER
+318	ES	Spanish	official	99	R1176	es		ES
+319	ES	English		24		en		ES
+320	ES	Catalan	official_regional	17	R1177	ca		ES
+321	ES	Galician	official_regional	7	R1177	gl		ES
+322	ES	Basque	official_regional	2	R1177	eu		ES
+323	ES	Asturian	official_regional	1.3	R1096	ast		ES
+324	ES	Extremaduran		0.49		ext		ES
+325	ET	English		43		en		ET
+326	ET	Amharic	official	33		am		ET
+327	ET	Oromo		32		om		ET
+328	ET	Somali		6		so		ET
+329	ET	Tigrinya		6		ti		ET
+330	ET	Sidamo		3.5		sid		ET
+331	ET	Wolaytta		1.8		wal		ET
+332	ET	Afar		1.4		aa		ET
+333	FI	Finnish	official	94		fi		FI
+334	FI	English		70	R1110	en		FI
+335	FI	Swedish	official	5.7		sv		FI
+336	FI	Russian		0.81	R1110	ru		FI
+337	FI	Estonian		0.11		et		FI
+338	FI	Kalo Finnish Romani		0.095	R1111	rmf		FI
+339	FI	Northern Sami		0.038		se		FI
+340	FI	Inari Sami		0.011	R1112	smn		FI
+341	FI	Skolt Sami		0.011	R1112	sms		FI
+342	FJ	English	official	94		en		FJ
+343	FJ	Hindi		44	R1097	hi		FJ
+344	FJ	Fiji Hindi (Devanagari)	official	41	R1299	hif_Deva		FJ
+345	FJ	Fijian	official	39		fj		FJ
+346	FJ	Rotuman		0.28		rtm		FJ
+347	FK	English	official	99		en		FK
+348	FM	English	official	57		en		FM
+349	FM	Chuukese		30		chk		FM
+350	FM	Pohnpeian		23		pon		FM
+351	FM	Kosraean		7.6		kos		FM
+352	FM	Yapese		6.2		yap		FM
+353	FM	Ulithian		2.8		uli		FM
+354	FO	Faroese	official	95		fo		FO
+355	FR	French	official	99		fr		FR
+356	FR	English		39		en		FR
+357	FR	Occitan		3	R1015	oc	5	FR
+358	FR	Italian		1.7		it		FR
+359	FR	Portuguese		1.3		pt		FR
+360	FR	Picard		1.1		pcd		FR
+361	FR	Swiss German		0.91	R1125	gsw	5	FR
+362	FR	Breton		0.83	R1138	br	3	FR
+363	FR	Corsican		0.57	R1012	co	5	FR
+364	FR	Catalan		0.17		ca		FR
+365	FR	Dutch		0.13		nl		FR
+366	FR	Basque		0.13		eu		FR
+367	FR	Arpitan		0.094		frp		FR
+368	FR	Interlingua		0.0002	R1220	ia		FR
+369	GA	French	official	63		fr		GA
+370	GA	Punu		9		puu		GA
+371	GB	English	official	99		en		GB
+372	GB	Scots		2.7	R1016	sco	5	GB
+373	GB	Punjabi (Gurmukhi)		0.79		pa_Guru		GB
+374	GB	Welsh	official_regional	0.77		cy		GB
+375	GB	Bengali		0.67		bn		GB
+376	GB	Chinese (Traditional)		0.54		zh_Hant		GB
+377	GB	Sylheti		0.51		syl		GB
+378	GB	Greek		0.34		el		GB
+379	GB	Italian		0.34		it		GB
+380	GB	Kashmiri (Arabic)		0.19		ks_Arab		GB
+381	GB	Scottish Gaelic	official_regional	0.099	R1017	gd	5	GB
+382	GB	Yiddish		0.049	R1249	yi		GB
+383	GB	Malayalam		0.035	R1113	ml		GB
+384	GB	Irish	official_regional	0.026	R1139	ga		GB
+385	GB	French		0.024		fr		GB
+386	GB	Cornish		0.0031	R1140	kw		GB
+387	GD	English	official	96	R1018	en		GD
+388	GE	Georgian	official	86		ka		GE
+389	GE	Mingrelian		11		xmf		GE
+390	GE	Russian		9	R1038	ru		GE
+391	GE	Armenian		7	R1038	hy		GE
+392	GE	Abkhazian	official_regional	2.2		ab		GE
+393	GE	Ossetic	official_regional	2.2		os		GE
+394	GE	Kurdish (Latin)		0.89		ku_Latn		GE
+395	GF	French	official	77	R1019	fr		GF
+396	GF	Guianese Creole French		26		gcr		GF
+397	GF	Chinese (Traditional)		2.5		zh_Hant		GF
+398	GG	English	official	100		en		GG
+399	GH	Akan	official_regional	39		ak		GH
+400	GH	English	official	21	R1225	en		GH
+401	GH	Ewe	official_regional	11		ee		GH
+402	GH	Abron		5		abr		GH
+403	GH	Frafra		3.5		gur		GH
+404	GH	Adangme		3		ada		GH
+405	GH	Ga	official_regional	2.8		gaa		GH
+406	GH	Nzima		1	R1226	nzi		GH
+407	GH	Hausa (Latin)		0.87	R1141	ha_Latn		GH
+408	GH	Safaliba		0.016	R1226	saf		GH
+409	GI	English	official	80	R1022	en		GI
+410	GL	Kalaallisut	official	84		kl		GL
+411	GL	Danish		14		da		GL
+412	GM	English	official	40		en		GM
+413	GM	Mandingo (Latin)		29		man_Latn		GM
+414	GN	French	official	29	R1040	fr		GN
+415	GN	Fulah		26		ff		GN
+416	GN	Mandingo (N’Ko)		23		man_Nkoo		GN
+417	GN	Susu		11		sus		GN
+418	GN	NʼKo		5	R1286	nqo		GN
+419	GN	Kpelle		3.8		kpe		GN
+420	GP	French	official	90	R1023	fr		GP
+421	GQ	Spanish	official	87	R1142	es		GQ
+422	GQ	Fang		51		fan		GQ
+423	GQ	French	official	8.8	R1084	fr		GQ
+424	GQ	Bube		7.9		bvb		GQ
+425	GR	Greek	official	99	R1211	el		GR
+426	GR	English		51		en		GR
+427	GR	Pontic (Greek)		3.7		pnt_Grek		GR
+428	GR	Macedonian		1.6		mk		GR
+429	GR	Turkish		1.2		tr		GR
+430	GR	Bulgarian		0.27		bg		GR
+431	GR	Albanian		0.093		sq		GR
+432	GR	Tsakonian		0.0019		tsd		GR
+433	GS	Unknown Language		100	R1178	und	100	GS
+434	GT	Spanish	official	93	R1227	es		GT
+435	GT	Kʼicheʼ	official_regional	7	R1289	quc		GT
+436	GU	English	de_facto_official	91		en		GU
+437	GU	Chamorro	official	22		ch		GU
+438	GW	Portuguese	official	100	R1027	pt		GW
+439	GY	English	official	100		en		GY
+440	HK	Chinese (Traditional)	official	95		zh_Hant		HK
+441	HK	English	official	51		en		HK
+442	HK	Chinese (Simplified)		5	R1143	zh_Hans		HK
+443	HM	Unknown Language		100	R1064	und	100	HM
+444	HN	Spanish	official	78		es		HN
+445	HN	English		0.44		en		HN
+446	HR	Croatian	official	99		hr		HR
+447	HR	English		49		en		HR
+448	HR	Italian	official_regional	1.6		it		HR
+449	HT	Haitian	official	81	R1029	ht		HT
+450	HT	French	official	4.7	R1030	fr	100	HT
+451	HU	Hungarian	official	100		hu		HU
+452	HU	English		20		en		HU
+453	HU	German		2.5		de		HU
+454	HU	Romanian		0.99		ro		HU
+455	HU	Croatian		0.32		hr		HU
+456	HU	Slovak		0.11		sk		HU
+457	HU	Slovenian		0.05		sl		HU
+458	IC	Spanish	official	98	R1075	es		IC
+459	ID	Indonesian	official	64		id		ID
+460	ID	Javanese		34	R1294	jv	10	ID
+461	ID	Sundanese		12	R1269	su		ID
+462	ID	Madurese		6.3		mad	40	ID
+463	ID	Malay (Arabic)		4.6		ms_Arab		ID
+464	ID	Minangkabau		3		min	10	ID
+465	ID	Betawi		2.1		bew		ID
+466	ID	Balinese		1.8	R1144	ban	10	ID
+467	ID	Buginese		1.6	R1145	bug	10	ID
+468	ID	Banjar		1.5		bjn	10	ID
+469	ID	Achinese		1.4		ace		ID
+470	ID	Sasak		0.97		sas		ID
+471	ID	Batak Toba		0.92		bbc		ID
+472	ID	Chinese (Traditional)		0.92		zh_Hant		ID
+473	ID	Makasar		0.73		mak		ID
+474	ID	Lampung Api		0.69		ljp		ID
+475	ID	Rejang		0.46		rej		ID
+476	ID	Gorontalo		0.41		gor		ID
+477	ID	Ngaju		0.37		nij		ID
+478	ID	Komering		0.32		kge		ID
+479	ID	Uab Meto		0.27		aoz		ID
+480	ID	Kerinci		0.14		kvr		ID
+481	ID	Tolaki		0.13		lbw		ID
+482	ID	Gayo		0.12		gay		ID
+483	ID	Tae'		0.11		rob		ID
+484	ID	Mandar		0.092		mdr		ID
+485	ID	Sangir		0.092		sxn		ID
+486	ID	Selayar		0.054		sly		ID
+487	ID	Mentawai		0.024		mwv		ID
+488	IE	English	official	98	R1202	en		IE
+489	IE	Irish	official	11	R1043	ga		IE
+490	IL	Hebrew	official	100		he		IL
+491	IL	English		85		en		IL
+492	IL	Arabic	official	20		ar		IL
+493	IL	Russian		11		ru		IL
+494	IL	Romanian		3.7		ro		IL
+495	IL	Yiddish		3		yi		IL
+496	IL	Polish		1.5		pl		IL
+497	IL	Ladino		1.3	R1301	lad		IL
+498	IL	Hungarian		1		hu		IL
+499	IL	Amharic		0.59		am		IL
+500	IL	Tigrinya		0.13		ti		IL
+501	IL	Malayalam		0.1	R1115	ml		IL
+502	IM	English	official	100		en		IM
+503	IM	Manx	official	1.9		gv		IM
+504	IN	Hindi	official	41	R1066	hi		IN
+505	IN	English	official	19	R1033	en		IN
+506	IN	Bengali	official_regional	8.1	R1195	bn		IN
+507	IN	Telugu	official_regional	7.2	R1195	te		IN
+508	IN	Marathi	official_regional	7	R1195	mr		IN
+509	IN	Tamil	official_regional	5.9	R1195	ta		IN
+510	IN	Urdu	official_regional	5	R1195	ur		IN
+511	IN	Gujarati	official_regional	4.5	R1195	gu		IN
+512	IN	Kannada	official_regional	3.7	R1195	kn		IN
+513	IN	Malayalam	official_regional	3.2	R1195	ml		IN
+514	IN	Oriya	official_regional	3.2	R1195	or		IN
+515	IN	Punjabi (Gurmukhi)	official_regional	2.8	R1195	pa_Guru		IN
+516	IN	Bhojpuri		2.3		bho	30	IN
+517	IN	Awadhi		1.9		awa	5	IN
+518	IN	Assamese	official_regional	1.3		as		IN
+519	IN	Haryanvi		1.2	R1146	bgc	55	IN
+520	IN	Magahi		1.2	R1098	mag	30	IN
+521	IN	Marwari		1.2	R1126	mwr		IN
+522	IN	Maithili	official_regional	1.2	R1195	mai		IN
+523	IN	Chhattisgarhi		1.1		hne		IN
+524	IN	Deccan		0.99		dcc		IN
+525	IN	Kanauji		0.56		bjj	60	IN
+526	IN	Nepali	official_regional	0.56		ne		IN
+527	IN	Santali	official_regional	0.55		sat		IN
+528	IN	Mewati		0.46		wtm	25	IN
+529	IN	Rangpuri		0.44	R1228	rkt	20	IN
+530	IN	Kashmiri (Arabic)	official_regional	0.41		ks_Arab		IN
+531	IN	Konkani	official_regional	0.37		kok		IN
+532	IN	Goan Konkani		0.32		gom		IN
+533	IN	Shekhawati		0.28		swv		IN
+534	IN	Garhwali		0.27		gbm		IN
+535	IN	Lambadi		0.27		lmn		IN
+536	IN	Sindhi (Arabic)	official_regional	0.26		sd_Arab		IN
+537	IN	Gondi (Telugu)		0.24		gon_Telu		IN
+538	IN	Kumaoni		0.22		kfy		IN
+539	IN	Dogri		0.19		doi		IN
+540	IN	Kurukh		0.19		kru		IN
+541	IN	Sadri		0.18		sck		IN
+542	IN	Waddar		0.18		wbq		IN
+543	IN	Kangri		0.16		xnr		IN
+544	IN	Tulu		0.15		tcy		IN
+545	IN	Wagdi		0.15		wbr		IN
+546	IN	Khandesi		0.15		khn		IN
+547	IN	Bodo		0.14		brx		IN
+548	IN	Nimadi		0.13		noe		IN
+549	IN	Bhili		0.12		bhb		IN
+550	IN	Manipuri		0.11		mni		IN
+551	IN	Rajasthani		0.1		raj		IN
+552	IN	Ho		0.099	R1195	hoc		IN
+553	IN	Mewari		0.098		mtr		IN
+554	IN	unr (Bengali)		0.095		unr_Beng		IN
+555	IN	Bhilali		0.092		bhi		IN
+556	IN	Hadothi		0.082		hoj		IN
+557	IN	Khasi	official_regional	0.08		kha	29	IN
+558	IN	Kachchi		0.075		kfr		IN
+559	IN	Garo		0.053		grt		IN
+560	IN	unx (Bengali)		0.048		unx_Beng		IN
+561	IN	Bagheli		0.037		bfy		IN
+562	IN	Sirmauri		0.035	R1196	srx		IN
+563	IN	Saurashtra		0.029		saz		IN
+564	IN	Chakma		0.028		ccp		IN
+565	IN	Sindhi (Devanagari)	official_regional	0.026	R1102	sd_Deva		IN
+566	IN	Badaga		0.023		bfq		IN
+567	IN	Ao Naga		0.023		njo		IN
+568	IN	Riang (India)		0.013		ria		IN
+569	IN	Tibetan		0.011		bo		IN
+570	IN	Bishnupriya		0.0068		bpy		IN
+571	IN	Balti		0.0062		bft		IN
+572	IN	Braj		0.0041		bra		IN
+573	IN	Lepcha		0.0035		lep		IN
+574	IN	Bateri		0.0026		btv		IN
+575	IN	lif (Devanagari)		0.0026		lif_Deva		IN
+576	IN	Lahnda		0.0025		lah		IN
+577	IN	Sanskrit	official_regional	0.0012	R1197	sa		IN
+578	IN	Khamti		0.0007		kht		IN
+579	IN	Divehi		0.0004		dv		IN
+580	IN	Dzongkha		0.0002		dz		IN
+581	IO	English	official	100	R1179	en	100	IO
+582	IQ	Arabic	official	68		ar		IQ
+583	IQ	English		35		en		IQ
+584	IQ	Sorani Kurdish	official_regional	20	R1073	ckb		IQ
+585	IQ	Persian		0.87		fa		IQ
+586	IQ	Syriac		0.5	R1229	syr		IQ
+587	IR	Persian	official	75		fa		IR
+588	IR	Azerbaijani (Arabic)		24		az_Arab		IR
+589	IR	South Azerbaijani		24		azb		IR
+590	IR	Mazanderani		5		mzn		IR
+591	IR	Gilaki		4.6		glk		IR
+592	IR	Sorani Kurdish		3.9	R1212	ckb		IR
+593	IR	Turkmen (Latin)		2.8		tk_Latn		IR
+594	IR	Northern Luri		2.1		lrc	10	IR
+595	IR	Arabic		2		ar		IR
+596	IR	Baluchi		2		bal		IR
+597	IR	Domari		1.9	R1270	rmt	1	IR
+598	IR	Bakhtiari		1.4		bqi		IR
+599	IR	Southern Luri		1.2		luz		IR
+600	IR	Laki		0.76	R1212	lki		IR
+601	IR	Parsi-Dari		0.5		prd		IR
+602	IR	Armenian		0.24		hy		IR
+603	IR	Pashto		0.16		ps		IR
+604	IR	Georgian		0.071		ka		IR
+605	IR	Zoroastrian Dari		0.0099		gbz		IR
+606	IR	Kazakh (Arabic)		0.0037	R1119	kk_Arab		IR
+607	IS	Icelandic	official	100	R1035	is		IS
+608	IS	Danish		0.71		da		IS
+609	IT	Italian	official	95		it		IT
+610	IT	English		34		en		IT
+611	IT	French	official_regional	6.3	R1252	fr		IT
+612	IT	Sardinian		1.7		sc		IT
+613	IT	German		1.6	R1251	de		IT
+614	IT	Venetian		1.3	R1295	vec		IT
+615	IT	Neapolitan		0.97	R1148	nap	5	IT
+616	IT	Ligurian		0.86		lij		IT
+617	IT	Sicilian		0.82	R1149	scn	5	IT
+618	IT	Slovenian		0.17	R1253	sl		IT
+619	IT	Sassarese Sardinian		0.17		sdc		IT
+620	IT	Friulian		0.06	R1296	fur	5	IT
+621	IT	Emilian		0.05	R1302	egl		IT
+622	IT	Catalan		0.035		ca		IT
+623	IT	Greek		0.035		el		IT
+624	IT	Lombard		0.032		lmo		IT
+625	IT	Piedmontese		0.01		pms		IT
+626	IT	Croatian		0.0057		hr		IT
+627	IT	Romagnol		0	R1150	rgn		IT
+628	JE	English	official	95		en		JE
+629	JM	English	official	98		en		JM
+630	JM	Jamaican Creole English		95		jam		JM
+631	JO	Arabic	official	100	R1036	ar		JO
+632	JO	English		45	R1036	en		JO
+633	JP	Japanese	official	95		ja		JP
+634	JP	Central Okinawan		0.77	R1151	ryu	5	JP
+635	JP	Korean		0.52		ko		JP
+636	KE	Swahili	official	66	R1127	sw		KE
+637	KE	English	official	19		en		KE
+638	KE	Kikuyu		17		ki		KE
+639	KE	Luyia		11		luy		KE
+640	KE	Luo		9.8		luo		KE
+641	KE	Kamba		7.6		kam		KE
+642	KE	Kalenjin		7.6		kln		KE
+643	KE	Gusii		4.9		guz		KE
+644	KE	Meru		4		mer		KE
+645	KE	Masai		1.6		mas	50	KE
+646	KE	Embu		1.5		ebu	1	KE
+647	KE	Somali		1.3		so		KE
+648	KE	Taita		0.82		dav	5	KE
+649	KE	Teso		0.74		teo		KE
+650	KE	Pökoot		0.7		pko	1	KE
+651	KE	Oromo		0.47		om		KE
+652	KE	Samburu		0.46	R1180	saq	1	KE
+653	KE	Arabic		0.046		ar		KE
+654	KE	Punjabi (Gurmukhi)		0.022		pa_Guru		KE
+655	KE	Gujarati		0.011		gu		KE
+656	KG	Kyrgyz (Cyrillic)	official	48		ky_Cyrl		KG
+657	KG	Russian	official	36	R1108	ru		KG
+658	KH	Khmer	official	89		km		KH
+659	KH	Western Cham		1.6		cja		KH
+660	KH	Kuy		0.11		kdt		KH
+661	KI	English	official	100	R1037	en		KI
+662	KI	Gilbertese	official	60		gil		KI
+663	KM	Arabic	official	66		ar		KM
+664	KM	French	official	56		fr		KM
+665	KM	Ngazidja Comorian	official	37	R1198	zdj		KM
+666	KN	English	official	98		en		KN
+667	KP	Korean	official	88		ko		KP
+668	KR	Korean	official	100		ko		KR
+669	KW	Arabic	official	100		ar		KW
+670	KY	English	official	98		en		KY
+671	KZ	Russian	official	72	R1257	ru		KZ
+672	KZ	Kazakh (Cyrillic)	official	64	R1068	kk_Cyrl		KZ
+673	KZ	English		15		en		KZ
+674	KZ	German		6.4		de		KZ
+675	KZ	Uyghur (Cyrillic)		2		ug_Cyrl		KZ
+676	LA	Lao	official	69		lo		LA
+677	LA	Khmu		5.8	R1230	kjg		LA
+678	LA	Kuy		0.96	R1231	kdt		LA
+679	LB	Arabic	official	86		ar		LB
+680	LB	English		40		en		LB
+681	LB	Armenian		5.2		hy		LB
+682	LB	Kurdish (Arabic)		1.6		ku_Arab		LB
+683	LB	French		0.37		fr		LB
+684	LC	English	official	90		en		LC
+685	LI	German	official	100	R1039	de		LI
+686	LI	Swiss German	de_facto_official	85		gsw	5	LI
+687	LI	Walser		3.5		wae		LI
+688	LK	Sinhala	official	68		si		LK
+689	LK	Tamil	official	15		ta		LK
+690	LK	English		10		en		LK
+691	LR	English	official	83	R1046	en		LR
+692	LR	Kpelle		14		kpe		LR
+693	LR	Vai (Vai)		2.6	R1271	vai_Vaii		LR
+694	LR	Mende		0.48		men		LR
+695	LR	Vai (Latin)		0	R1272	vai_Latn		LR
+696	LS	Southern Sotho	official	98		st		LS
+697	LS	English	official	27	R1047	en		LS
+698	LS	Zulu		14		zu		LS
+699	LS	Swati		2.4		ss		LS
+700	LS	Xhosa		0.99		xh		LS
+701	LT	Lithuanian	official	86		lt		LT
+702	LT	English		38		en		LT
+703	LT	Russian		8	R1048	ru		LT
+704	LT	Samogitian		0	R1303	sgs		LT
+705	LU	French	official	87		fr		LU
+706	LU	Luxembourgish	official	67	R1024	lb	5	LU
+707	LU	German	official	63		de		LU
+708	LV	Latvian	official	61		lv		LV
+709	LV	Russian		38		ru		LV
+710	LV	Latgalian		8.9		ltg		LV
+711	LY	Arabic	official	74		ar		LY
+712	MA	Moroccan Arabic		87		ary		MA
+713	MA	Arabic	official	62		ar		MA
+714	MA	Standard Moroccan Tamazight		22	R1254	zgh		MA
+715	MA	French	de_facto_official	20	R1050	fr		MA
+716	MA	English		14	R1050	en		MA
+717	MA	Central Atlas Tamazight (Latin)	official	9.8		tzm_Latn	25	MA
+718	MA	Tachelhit (Latin)		8.7	R1181	shi_Latn		MA
+719	MA	Tachelhit (Tifinagh)		8.7		shi_Tfng		MA
+720	MA	Riffian (Latin)		4.9		rif_Latn	5	MA
+721	MA	Riffian (Tifinagh)		4.9		rif_Tfng	5	MA
+722	MA	Spanish		0.065		es		MA
+723	MC	French	official	99		fr		MC
+724	MD	Romanian	official	63		ro		MD
+725	MD	Ukrainian		14		uk		MD
+726	MD	Bulgarian		9.4		bg		MD
+727	MD	Gagauz		3.3	R1128	gag		MD
+728	MD	Russian		3	R1051	ru		MD
+729	ME	Serbian (Latin)	official	100		sr_Latn		ME
+730	ME	Albanian		7.9		sq		ME
+731	ME	Serbian (Cyrillic)		5	R1255	sr_Cyrl		ME
+732	MF	French	official	100		fr		MF
+733	MG	Malagasy	official	90	R1089	mg		MG
+734	MG	French	official	69		fr		MG
+735	MG	English	official	18	R1118	en		MG
+736	MH	English	official	93		en		MH
+737	MH	Marshallese	official	73		mh		MH
+738	MK	Macedonian	official	67		mk		MK
+739	MK	Albanian	official_regional	25	R1053	sq		MK
+740	MK	Turkish		3.5		tr		MK
+741	ML	Bambara (Latin)		46		bm_Latn		ML
+742	ML	French	official	46		fr		ML
+743	ML	Maasina Fulfulde		7.7		ffm		ML
+744	ML	Soninke		5.9		snk		ML
+745	ML	Kita Maninkakan		5		mwk		ML
+746	ML	Koyraboro Senni		3.4		ses		ML
+747	ML	Tamashek		2.1		tmh		ML
+748	ML	Bambara (N’Ko)		2	R1291	bm_Nkoo		ML
+749	ML	Koyra Chiini		1.7		khq		ML
+750	ML	Tomo Kan Dogon		1.1		dtm		ML
+751	ML	Xaasongaxango		1		kao		ML
+752	ML	Arabic		0.89		ar		ML
+753	ML	Bomu		0.86		bmq		ML
+754	ML	Jenaama Bozo		0.84		bze		ML
+755	MM	Burmese	official	64		my		MM
+756	MM	Shan		6.4		shn		MM
+757	MM	Kachin		1.7		kac		MM
+758	MM	Mon		1.5		mnw		MM
+759	MM	Khamti		0.0076		kht		MM
+760	MN	Mongolian (Cyrillic)	official	93		mn_Cyrl		MN
+761	MN	Kazakh (Arabic)		7.2	R1119	kk_Arab		MN
+762	MN	Chinese (Simplified)		1.4		zh_Hans		MN
+763	MN	Russian		0.14		ru		MN
+764	MN	Uyghur (Cyrillic)		0.034		ug_Cyrl		MN
+765	MO	Chinese (Traditional)	official	98		zh_Hant		MO
+766	MO	Portuguese	official	5	R1085	pt		MO
+767	MO	Chinese (Simplified)		5	R1143	zh_Hans		MO
+768	MO	English		2.3	R1273	en		MO
+769	MP	English	de_facto_official	97		en		MP
+770	MP	Chamorro		18		ch		MP
+771	MQ	French	official	98		fr		MQ
+772	MR	Arabic	official	85		ar		MR
+773	MR	French		17	R1135	fr		MR
+774	MR	Fulah		5.7		ff		MR
+775	MR	Wolof		0.28		wo		MR
+776	MS	English	official	67		en		MS
+777	MT	Maltese	official	100		mt		MT
+778	MT	English	official	88		en		MT
+779	MU	Morisyen		90		mfe		MU
+780	MU	English	official	72	R1152	en		MU
+781	MU	Bhojpuri		27		bho		MU
+782	MU	Urdu		5.2		ur		MU
+783	MU	French	official	3		fr		MU
+784	MU	Tamil		2.5		ta		MU
+785	MV	Divehi	official	94		dv		MV
+786	MW	English	official	63		en		MW
+787	MW	Nyanja	official	63		ny		MW
+788	MW	Tumbuka		8.4		tum		MW
+789	MW	Nyasa Tonga		0.98		tog		MW
+790	MW	Zulu		0.33		zu		MW
+791	MX	Spanish	de_facto_official	83		es		MX
+792	MX	English		13		en		MX
+793	MX	Yucateco		0.67		yua		MX
+794	MX	Eastern Huasteca Nahuatl		0.39		nhe		MX
+795	MX	Western Huasteca Nahuatl		0.38		nhw		MX
+796	MX	Central Mazahua		0.34		maz		MX
+797	MX	Central Huasteca Nahuatl		0.19		nch		MX
+798	MX	Seri		0.0007		sei		MX
+799	MY	Malay (Latin)	official	75		ms_Latn		MY
+800	MY	English		21		en		MY
+801	MY	Chinese (Traditional)		17		zh_Hant		MY
+802	MY	Tamil		4.2		ta		MY
+803	MY	Iban		2.5		iba		MY
+804	MY	Javanese		1.2		jv		MY
+805	MY	Negeri Sembilan Malay		1.2		zmi		MY
+806	MY	Central Dusun		0.56		dtp		MY
+807	MY	Malayalam		0.15		ml		MY
+808	MY	Buginese		0.079	R1056	bug		MY
+809	MY	Banjar		0.017		bjn		MY
+810	MZ	Portuguese	official	27		pt		MZ
+811	MZ	Makhuwa		13		vmw		MZ
+812	MZ	Ndau		9.9		ndc		MZ
+813	MZ	Tsonga		7.9		ts		MZ
+814	MZ	Lomwe		6.8		ngl		MZ
+815	MZ	Sena		4.6		seh		MZ
+816	MZ	Makhuwa-Meetto		4.5	R1274	mgh		MZ
+817	MZ	Ronga		3.4		rng		MZ
+818	MZ	Nyanja		2.6		ny		MZ
+819	MZ	Yao		2.4		yao		MZ
+820	MZ	Swahili		0.037		sw		MZ
+821	MZ	Zulu		0.0073		zu		MZ
+822	NA	Afrikaans		75	R1256	af		NA
+823	NA	Kuanyama		35		kj		NA
+824	NA	Ndonga		21		ng		NA
+825	NA	Nama		9.2	R1182	naq		NA
+826	NA	Herero		9.1		hz		NA
+827	NA	English	official	7		en		NA
+828	NA	German		1		de		NA
+829	NA	Tswana		0.28		tn		NA
+830	NC	French	official	96		fr		NC
+831	NE	Hausa (Latin)		41		ha_Latn		NE
+832	NE	French	official	29	R1041	fr		NE
+833	NE	Zarma		17		dje		NE
+834	NE	Central-Eastern Niger Fulfulde		7		fuq		NE
+835	NE	Tamashek		6		tmh		NE
+836	NE	Arabic		0.21		ar		NE
+837	NE	Tasawaq		0.046		twq		NE
+838	NF	English	official	76		en		NF
+839	NG	English	official	53		en		NG
+840	NG	Nigerian Pidgin		21	R1275	pcm		NG
+841	NG	Hausa (Latin)		13		ha_Latn		NG
+842	NG	Igbo		13		ig		NG
+843	NG	Yoruba	official	13		yo		NG
+844	NG	Nigerian Fulfulde		6.7		fuv	20	NG
+845	NG	Tiv		1.6		tiv	25	NG
+846	NG	Efik		1.4	R1099	efi		NG
+847	NG	Ibibio		1.4		ibb		NG
+848	NG	Hausa (Arabic)		1	R1153	ha_Arab		NG
+849	NG	Bini		0.71	R1276	bin		NG
+850	NG	Jju		0.21		kaj		NG
+851	NG	Tyap		0.093		kcg		NG
+852	NG	Arabic		0.071		ar		NG
+853	NG	Atsam		0.021		cch		NG
+854	NG	Amo		0.0087		amo		NG
+855	NI	Spanish	official	78		es		NI
+856	NL	Dutch	official	100	R1042	nl		NL
+857	NL	English		90	R1070	en		NL
+858	NL	Limburgish		5.5	R1026	li	5	NL
+859	NL	Western Frisian	official_regional	4.3		fy		NL
+860	NL	Gronings		3.6		gos	5	NL
+861	NL	Indonesian		1.8		id		NL
+862	NL	Zeelandic		1.4		zea		NL
+863	NL	Riffian (Latin)		1.2		rif_Latn		NL
+864	NL	Turkish		1.2		tr		NL
+865	NL	Low German		0.8	R1026	nds	5	NL
+866	NO	Norwegian Bokmål	official	100		nb		NO
+867	NO	Norwegian Nynorsk	official	25		nn		NO
+868	NO	Northern Sami	official_regional	3.3		se		NO
+869	NP	Nepali	official	44		ne		NP
+870	NP	Maithili		11		mai		NP
+871	NP	Bhojpuri		6.8		bho		NP
+872	NP	Newari		3.3		new		NP
+873	NP	Jumli		3.2		jml		NP
+874	NP	English		3		en		NP
+875	NP	Eastern Tamang		3		taj		NP
+876	NP	Awadhi		2.2		awa		NP
+877	NP	Dangaura Tharu		2		thl		NP
+878	NP	Bantawa		1.5		bap		NP
+879	NP	Western Tamang		1.3		tdg		NP
+880	NP	Rana Tharu		1.2		thr		NP
+881	NP	Eastern Magar		1.1		mgp		NP
+882	NP	lif (Devanagari)		1.1		lif_Deva		NP
+883	NP	Kochila Tharu		1		thq		NP
+884	NP	Western Magar		0.83		mrd		NP
+885	NP	Bagheli		0.54		bfy		NP
+886	NP	Sherpa		0.52		xsr		NP
+887	NP	Rajbanshi		0.44	R1232	rjs	67	NP
+888	NP	Southwestern Tamang		0.43		tsf		NP
+889	NP	Hindi		0.42		hi		NP
+890	NP	Eastern Gurung		0.42		ggn		NP
+891	NP	Western Gurung		0.29		gvr		NP
+892	NP	Tibetan		0.24		bo		NP
+893	NP	Kathoriya Tharu		0.24		tkt		NP
+894	NP	Thulung		0.12		tdh		NP
+895	NP	Bengali		0.094		bn		NP
+896	NP	unr (Devanagari)		0.018		unr_Deva		NP
+897	NP	Lepcha		0.0091		lep		NP
+898	NR	English	official	99		en		NR
+899	NR	Nauru	official	73	R1154	na		NR
+900	NU	English	official	95		en		NU
+901	NU	Niuean	official	95	R1155	niu		NU
+902	NZ	English	de_facto_official	98	R1203	en		NZ
+903	NZ	Maori	official	2.5	R1044	mi		NZ
+904	OM	Arabic	official	81		ar		OM
+905	OM	Baluchi		4.9		bal		OM
+906	OM	Persian		0.94		fa		OM
+907	PA	Spanish	official	69		es		PA
+908	PA	English		14		en		PA
+909	PA	Chinese (Traditional)		0.17		zh_Hant		PA
+910	PE	Spanish	official	73		es		PE
+911	PE	Quechua	official	15		qu		PE
+912	PE	Aymara		1.6		ay		PE
+913	PF	French	official	61		fr		PF
+914	PF	Tahitian	official	31		ty		PF
+915	PF	Chinese (Traditional)		7.8		zh_Hant		PF
+916	PG	Tok Pisin	official	71	R1057	tpi	45	PG
+917	PG	English	official	50	R1156	en		PG
+918	PG	Hiri Motu	official	2.1	R1058	ho	5	PG
+919	PH	English	official	64	R1157	en		PH
+920	PH	Filipino	official	60	R1028	fil		PH
+921	PH	Spanish		31		es		PH
+922	PH	Cebuano	official_regional	24	R1157	ceb	13	PH
+923	PH	Iloko	official_regional	9.6	R1157	ilo	10	PH
+924	PH	Hiligaynon	official_regional	8.4	R1157	hil	8	PH
+925	PH	Bikol		3		bik		PH
+926	PH	Waray	official_regional	2.9		war		PH
+927	PH	Albay Bicolano		2.3		bhk		PH
+928	PH	Pampanga		2.3		pam		PH
+929	PH	Pangasinan	official_regional	1.4		pag		PH
+930	PH	Maguindanaon	official_regional	1.2		mdh		PH
+931	PH	Tausug	official_regional	1.1		tsg		PH
+932	PH	Chinese (Traditional)		0.73		zh_Hant		PH
+933	PH	Capiznon		0.67		cps		PH
+934	PH	Kinaray-a		0.39		krj		PH
+935	PH	Rinconada Bikol		0.28		bto		PH
+936	PH	Hanunoo		0.016		hnn		PH
+937	PH	Tagbanwa		0.0093	R1100	tbw	36	PH
+938	PH	Buhid		0.0074		bku		PH
+939	PK	Urdu	official	95	R1106	ur		PK
+940	PK	Punjabi (Arabic)		70	R1158	pa_Arab		PK
+941	PK	English	official	50	R1106	en		PK
+942	PK	Lahnda		40		lah		PK
+943	PK	Pashto		15	R1107	ps		PK
+944	PK	Sindhi (Arabic)		12		sd_Arab		PK
+945	PK	Saraiki		9.1	R1129	skr	1	PK
+946	PK	Baluchi		3.7		bal		PK
+947	PK	Brahui		1.3		brh		PK
+948	PK	Northern Hindko		1.2		hno		PK
+949	PK	Persian		0.66		fa		PK
+950	PK	Southern Hindko		0.41		hnd		PK
+951	PK	Tajik (Arabic)		0.33		tg_Arab		PK
+952	PK	Gujari		0.2		gju		PK
+953	PK	Balti		0.18		bft		PK
+954	PK	Parkari Koli		0.16		kvx		PK
+955	PK	Khowar		0.15		khw		PK
+956	PK	Indus Kohistani		0.14		mvy		PK
+957	PK	Wadiyara Koli		0.12		kxp		PK
+958	PK	Kachi Koli		0.11		gjk		PK
+959	PK	Kashmiri (Arabic)		0.069		ks_Arab		PK
+960	PK	Bateri		0.019		btv		PK
+961	PL	Polish	official	96		pl		PL
+962	PL	English		33	R1277	en		PL
+963	PL	Silesian		1.3		szl		PL
+964	PL	Belarusian		0.58		be		PL
+965	PL	Ukrainian		0.39		uk		PL
+966	PL	Kashubian	official_regional	0.13	R1213	csb		PL
+967	PL	German	official_regional	0.096	R1277	de		PL
+968	PL	Lower Silesian		0.031		sli		PL
+969	PL	Lithuanian	official_regional	0.021	R1258	lt		PL
+970	PM	French	official	89		fr		PM
+971	PM	English		3.3		en		PM
+972	PN	English	official	96		en		PN
+973	PR	Spanish	official	87		es		PR
+974	PR	English	de_facto_official	49	R1072	en		PR
+975	PS	Arabic	official	100		ar		PS
+976	PT	Portuguese	official	96		pt		PT
+977	PT	English		27		en		PT
+978	PT	Galician		0.14		gl		PT
+979	PW	Palauan	official	74		pau		PW
+980	PW	English	official	8.9	R1059	en		PW
+981	PY	Guarani	official	80		gn		PY
+982	PY	Spanish	official	3.2		es		PY
+983	PY	German		2.9		de		PY
+984	QA	Arabic	official	89		ar		QA
+985	QA	Persian		11		fa		QA
+986	QA	Malayalam		0.31		ml		QA
+987	RE	French	official	89	R1130	fr		RE
+988	RE	Réunion Creole French		71		rcf		RE
+989	RE	Tamil		15		ta		RE
+990	RO	Romanian	official	90		ro		RO
+991	RO	English		31		en		RO
+992	RO	Hungarian		6.6		hu		RO
+993	RO	German		0.21		de		RO
+994	RO	Turkish		0.13		tr		RO
+995	RO	Serbian (Latin)		0.12		sr_Latn		RO
+996	RO	Bulgarian		0.031		bg		RO
+997	RO	Greek		0.019		el		RO
+998	RO	Polish		0.013		pl		RO
+999	RS	Serbian (Cyrillic)	official	99		sr_Cyrl		RS
+1000	RS	Serbian (Latin)	official	99	R1017	sr_Latn	5	RS
+1001	RS	Albanian		19		sq		RS
+1002	RS	Hungarian	official_regional	4.8	R1259	hu		RS
+1003	RS	Romanian	official_regional	2.1	R1259	ro		RS
+1004	RS	Croatian	official_regional	0.93	R1259	hr		RS
+1005	RS	Slovak	official_regional	0.85	R1259	sk		RS
+1006	RS	Ukrainian	official_regional	0	R1260	uk		RS
+1007	RU	Russian	official	94	R1204	ru		RU
+1008	RU	Tatar	official_regional	1.4	R1214	tt		RU
+1009	RU	Bashkir	official_regional	1.3		ba		RU
+1010	RU	Chuvash		1.3	R1159	cv		RU
+1011	RU	Armenian		0.84	R1278	hy	50	RU
+1012	RU	Chechen	official_regional	0.66		ce		RU
+1013	RU	Avaric	official_regional	0.39		av		RU
+1014	RU	Udmurt	official_regional	0.38		udm		RU
+1015	RU	Mari		0.37	R1101	chm		RU
+1016	RU	Sakha	official_regional	0.32	R1183	sah		RU
+1017	RU	Ossetic		0.32	R1233	os		RU
+1018	RU	Kabardian	official_regional	0.31		kbd		RU
+1019	RU	Erzya	official_regional	0.31		myv		RU
+1020	RU	Dargwa		0.26		dar		RU
+1021	RU	Buriat		0.22		bua		RU
+1022	RU	Moksha	official_regional	0.21		mdf		RU
+1023	RU	Kumyk	official_regional	0.2		kum		RU
+1024	RU	Komi	official_regional	0.18		kv		RU
+1025	RU	Lezghian	official_regional	0.18		lez		RU
+1026	RU	Karachay-Balkar	official_regional	0.16		krc		RU
+1027	RU	Ingush	official_regional	0.16		inh		RU
+1028	RU	Tuvinian	official_regional	0.13		tyv		RU
+1029	RU	Azerbaijani (Cyrillic)	official_regional	0.093	R1261	az_Cyrl		RU
+1030	RU	Adyghe	official_regional	0.088		ady		RU
+1031	RU	Karelian		0.082		krl		RU
+1032	RU	Lak	official_regional	0.078		lbe		RU
+1033	RU	Komi-Permyak	official_regional	0.045		koi		RU
+1034	RU	Western Mari		0.021		mrj		RU
+1035	RU	Southern Altai		0.014		alt		RU
+1036	RU	Finnish		0.012		fi		RU
+1037	RU	Serbian (Latin)		0.0035		sr_Latn		RU
+1038	RU	Veps		0.0025		vep		RU
+1039	RU	Mongolian (Cyrillic)		0.0015		mn_Cyrl		RU
+1040	RU	Ingrian		0.0001		izh		RU
+1041	RU	Votic		0		vot		RU
+1042	RU	Church Slavic		0	R1279	cu		RU
+1043	RW	Kinyarwanda	official	77		rw		RW
+1044	RW	English	official	15	R1054	en		RW
+1045	RW	French	official	0.019		fr		RW
+1046	SA	Arabic	official	100		ar		SA
+1047	SB	English	official	100	R1045	en		SB
+1048	SB	Roviana		1.6		rug		SB
+1049	SC	Seselwa Creole French		98	R1160	crs		SC
+1050	SC	French	official	60	R1161	fr		SC
+1051	SC	English	official	38		en		SC
+1052	SD	Arabic	official	61	R1234	ar		SD
+1053	SD	English	official	61	R1235	en		SD
+1054	SD	Nuer		1.8	R1280	nus		SD
+1055	SD	Hausa (Arabic)		1.4	R1234	ha_Arab		SD
+1056	SE	Swedish	official	95	R1205	sv		SE
+1057	SE	English		86		en		SE
+1058	SE	Finnish	official_regional	2.2		fi		SE
+1059	SE	Tornedalen Finnish		0.55		fit		SE
+1060	SE	Northern Sami		0.33		se		SE
+1061	SE	Tavringer Romani		0.098		rmu		SE
+1062	SE	Yiddish		0.031		yi		SE
+1063	SE	Lule Sami		0.015		smj		SE
+1064	SE	Southern Sami		0.0031		sma	75	SE
+1065	SE	Interlingua		0	R1215	ia		SE
+1066	SG	English	official	93	R1131	en		SG
+1067	SG	Chinese (Simplified)	official	77		zh_Hans		SG
+1068	SG	Malay (Latin)	official	14		ms_Latn		SG
+1069	SG	Tamil	official	2.1		ta		SG
+1070	SG	Malayalam		0.18		ml		SG
+1071	SG	Punjabi (Gurmukhi)		0.17		pa_Guru		SG
+1072	SH	English	official	69		en		SH
+1073	SI	Slovenian	official	87		sl		SI
+1074	SI	English		59		en		SI
+1075	SI	Hungarian		0.46		hu		SI
+1076	SI	Italian		0.2		it		SI
+1077	SJ	Norwegian Bokmål	official	80	R1116	nb		SJ
+1078	SJ	Russian		64	R1074	ru		SJ
+1079	SK	Slovak	official	90		sk		SK
+1080	SK	English		26		en		SK
+1081	SK	Hungarian		11		hu		SK
+1082	SK	Ukrainian		1.9		uk		SK
+1083	SK	Polish		0.93		pl		SK
+1084	SK	German		0.28		de		SK
+1085	SL	Krio		95	R1162	kri		SL
+1086	SL	English	official	35		en		SL
+1087	SL	Mende		27		men		SL
+1088	SL	Timne		26	R1061	tem	6	SL
+1089	SM	Italian	official	89		it		SM
+1090	SM	Esperanto		0.92	R1268	eo		SM
+1091	SN	Wolof	de_facto_official	70	R1297	wo		SN
+1092	SN	French	official	39	R1069	fr	100	SN
+1093	SN	Fulah		21		ff		SN
+1094	SN	Serer		11	R1069	srr		SN
+1095	SN	Jola-Fonyi		2.6	R1281	dyo	10	SN
+1096	SO	Somali	official	78		so		SO
+1097	SO	Arabic	official	34	R1236	ar	99	SO
+1098	SO	Swahili		2		sw		SO
+1099	SO	Oromo		0.42		om		SO
+1100	SR	Dutch	official	90	R1163	nl		SR
+1101	SR	Sranan Tongo		68	R1103	srn	75	SR
+1102	SR	Chinese (Traditional)		1.2		zh_Hant		SR
+1103	SS	Arabic		27	R1237	ar		SS
+1104	SS	English	official	27	R1237	en		SS
+1105	ST	Portuguese	official	85		pt		ST
+1106	SV	Spanish	official	89		es		SV
+1107	SX	English	official	68	R1238	en		SX
+1108	SX	Spanish		12	R1238	es		SX
+1109	SX	Virgin Islands Creole English		7.8	R1238	vic		SX
+1110	SX	Dutch	official	4	R1238	nl		SX
+1111	SY	Arabic	official	80		ar		SY
+1112	SY	Kurdish (Latin)		8		ku_Latn		SY
+1113	SY	French	official	5.9	R1088	fr		SY
+1114	SY	Armenian		1.8		hy		SY
+1115	SY	Syriac		0.084	R1017	syr	5	SY
+1116	SZ	English	official	80	R1071	en		SZ
+1117	SZ	Swati	official	58		ss		SZ
+1118	SZ	Zulu		6.8		zu		SZ
+1119	SZ	Tsonga		1.7		ts		SZ
+1120	TA	English		99		en		TA
+1121	TC	English	official	98		en		TC
+1122	TD	French	official	26	R1239	fr		TD
+1123	TD	Arabic	official	17	R1239	ar		TD
+1124	TF	French		100	R1184	fr	100	TF
+1125	TG	French	official	61		fr		TG
+1126	TG	Ewe		17		ee		TG
+1127	TH	Thai	official	80	R1199	th	93	TH
+1128	TH	English		27		en		TH
+1129	TH	Northeastern Thai		24	R1164	tts	5	TH
+1130	TH	Northern Thai		9.6		nod	5	TH
+1131	TH	Southern Thai		8		sou	5	TH
+1132	TH	Pattani Malay		5		mfa		TH
+1133	TH	Chinese (Traditional)		1.8		zh_Hant		TH
+1134	TH	Northern Khmer		1.7		kxm		TH
+1135	TH	Kuy		0.48		kdt	50	TH
+1136	TH	Mon		0.17		mnw		TH
+1137	TH	Shan		0.096		shn		TH
+1138	TH	Western Lawa		0.01		lcp	25	TH
+1139	TH	Eastern Lawa		0.01		lwl		TH
+1140	TJ	Tajik (Cyrillic)	official	100		tg_Cyrl		TJ
+1141	TJ	Russian		12	R1108	ru		TJ
+1142	TJ	Persian		0.78		fa		TJ
+1143	TJ	Arabic		0.012		ar		TJ
+1144	TK	English	official	100		en		TK
+1145	TK	Tokelau	official	100	R1185	tkl	5	TK
+1146	TL	Portuguese	official	59	R1049	pt	100	TL
+1147	TL	Tetum	official	59	R1076	tet		TL
+1148	TM	Turkmen (Latin)	official	70		tk_Latn		TM
+1149	TM	Russian		12		ru		TM
+1150	TM	Uzbek (Latin)		9		uz_Latn		TM
+1151	TM	Kurdish (Latin)		0.41		ku_Latn		TM
+1152	TN	Tunisian Arabic		90		aeb		TN
+1153	TN	Arabic	official	90		ar		TN
+1154	TN	French	official	74	R1132	fr		TN
+1155	TO	Tongan	official	95		to		TO
+1156	TO	English	official	28	R1078	en		TO
+1157	TR	Turkish	official	93	R1206	tr		TR
+1158	TR	English		17		en		TR
+1159	TR	Kurdish (Latin)		5.5		ku_Latn		TR
+1160	TR	Zaza		1.4		zza		TR
+1161	TR	Kabardian		0.77		kbd		TR
+1162	TR	Azerbaijani (Latin)		0.74		az_Latn		TR
+1163	TR	Arabic		0.56		ar		TR
+1164	TR	Balkan Gagauz Turkish		0.46		bgx		TR
+1165	TR	Bulgarian		0.42		bg		TR
+1166	TR	Adyghe		0.39		ady		TR
+1167	TR	Kirmanjki		0.19		kiu		TR
+1168	TR	Armenian		0.056		hy		TR
+1169	TR	Georgian		0.056		ka		TR
+1170	TR	Serbian (Latin)		0.028	R1017	sr_Latn	5	TR
+1171	TR	Laz (Latin)		0.028		lzz_Latn		TR
+1172	TR	Albanian		0.021		sq		TR
+1173	TR	Abkhazian		0.0049	R1079	ab		TR
+1174	TR	Greek		0.0049		el		TR
+1175	TR	Turoyo		0.0037		tru		TR
+1176	TR	Uzbek (Latin)		0.0024		uz_Latn		TR
+1177	TR	Kyrgyz (Latin)		0.0014		ky_Latn		TR
+1178	TR	Kazakh (Cyrillic)		0.0007	R1119	kk_Cyrl		TR
+1179	TT	English	official	88		en		TT
+1180	TT	Spanish		0.33		es		TT
+1181	TV	Tuvalu	official	92		tvl		TV
+1182	TV	English	official	9.9	R1080	en		TV
+1183	TW	Chinese (Traditional)	official	95		zh_Hant		TW
+1184	TW	Taroko		0.02		trv		TW
+1185	TZ	Swahili	official	90	R1133	sw		TZ
+1186	TZ	English	official	69	R1081	en		TZ
+1187	TZ	Sukuma		8.7		suk		TZ
+1188	TZ	Nyamwezi		3.3	R1081	nym		TZ
+1189	TZ	Makonde		2.4		kde		TZ
+1190	TZ	Bena		1.7		bez		TZ
+1191	TZ	Shambala		1.7		ksb		TZ
+1192	TZ	Masai		1.5	R1186	mas	50	TZ
+1193	TZ	Mbunga		1.4		mgy		TZ
+1194	TZ	Asu		1.2	R1187	asa		TZ
+1195	TZ	Langi		0.87	R1188	lag		TZ
+1196	TZ	Machame		0.75		jmc		TZ
+1197	TZ	Rombo		0.75	R1189	rof		TZ
+1198	TZ	Vunjo		0.75		vun		TZ
+1199	TZ	Rwa		0.22		rwk		TZ
+1200	TZ	Sangu		0.2	R1282	sbp	1	TZ
+1201	UA	Ukrainian	official	65		uk		UA
+1202	UA	Russian	de_facto_official	46	R1200	ru		UA
+1203	UA	Polish		2.4		pl		UA
+1204	UA	Yiddish		1.3		yi		UA
+1205	UA	Rusyn		1.2		rue		UA
+1206	UA	Belarusian		0.83		be		UA
+1207	UA	Romanian		0.52		ro		UA
+1208	UA	Bulgarian		0.49		bg		UA
+1209	UA	Turkish		0.42		tr		UA
+1210	UA	Hungarian		0.37		hu		UA
+1211	UA	Greek		0.016		el		UA
+1212	UG	Swahili	official	75	R1134	sw		UG
+1213	UG	Ganda		13		lg		UG
+1214	UG	Nyankole		6.3		nyn		UG
+1215	UG	Chiga		5.4		cgg		UG
+1216	UG	Soga		5.3		xog		UG
+1217	UG	English	official	3.9	R1082	en		UG
+1218	UG	Teso		3.9		teo		UG
+1219	UG	Lango (Uganda)		3.8		laj		UG
+1220	UG	Acoli		3.7	R1283	ach		UG
+1221	UG	Masaaba		2.9		myx		UG
+1222	UG	Kinyarwanda		2.1		rw		UG
+1223	UG	Tooro		1.9		ttj		UG
+1224	UG	Hindi		0.0061		hi		UG
+1225	UM	English	de_facto_official	100	R1190	en		UM
+1226	US	English	de_facto_official	96		en		US
+1227	US	Spanish	official_regional	9.6		es		US
+1228	US	Chinese (Traditional)		0.69		zh_Hant		US
+1229	US	French		0.56		fr		US
+1230	US	German		0.47		de		US
+1231	US	Filipino		0.42		fil		US
+1232	US	Italian		0.34		it		US
+1233	US	Vietnamese		0.34		vi		US
+1234	US	Korean		0.3		ko		US
+1235	US	Russian		0.24		ru		US
+1236	US	Navajo		0.05		nv		US
+1237	US	Yiddish		0.049	R1262	yi		US
+1238	US	Pennsylvania German		0.039		pdc		US
+1239	US	Hawaiian	official_regional	0.0089	R1166	haw		US
+1240	US	Cajun French		0.0084		frc		US
+1241	US	Cherokee		0.0077	R1017	chr	5	US
+1242	US	Central Yupik		0.0062		esu		US
+1243	US	Dakota		0.0059		dak		US
+1244	US	Choctaw		0.0033		cho		US
+1245	US	Lakota		0.0026	R1240	lkt		US
+1246	US	Inupiaq		0.0025	R1017	ik	5	US
+1247	US	Creek		0.0013		mus		US
+1248	UY	Spanish	official	88		es		UY
+1249	UZ	Uzbek (Latin)	official	85	R1263	uz_Latn		UZ
+1250	UZ	Uzbek (Cyrillic)	official	15	R1263	uz_Cyrl		UZ
+1251	UZ	Russian		14		ru		UZ
+1252	UZ	Kara-Kalpak		1.6		kaa		UZ
+1253	UZ	Turkish		0.76		tr		UZ
+1254	VA	Italian		98	R1077	it		VA
+1255	VA	Latin		98	R1284	la		VA
+1256	VC	English	official	96		en		VC
+1257	VE	Spanish	official	82		es		VE
+1258	VG	English	official	98		en		VG
+1259	VI	English	de_facto_official	75		en		VI
+1260	VN	Vietnamese	official	86	R1218	vi		VN
+1261	VN	Chinese (Traditional)		1		zh_Hant		VN
+1262	VN	Eastern Cham		0.089		cjm	60	VN
+1263	VU	Bislama	official	90	R1201	bi		VU
+1264	VU	English	official	83		en		VU
+1265	VU	French	official	50		fr		VU
+1266	WF	Wallisian		61		wls		WF
+1267	WF	French	official	49	R1168	fr		WF
+1268	WF	East Futuna		31		fud		WF
+1269	WS	Samoan	official	100		sm		WS
+1270	WS	English	official	2.2		en		WS
+1271	XK	Albanian	official	92		sq		XK
+1272	XK	Gheg Albanian		74	R1305	aln		XK
+1273	XK	Serbian (Cyrillic)	official	5	R1264	sr_Cyrl		XK
+1274	XK	Serbian (Latin)	official	5	R1264	sr_Latn		XK
+1275	YE	Arabic	official	74		ar		YE
+1276	YE	English		9		en		YE
+1277	YT	Comorian		88	R1169	swb		YT
+1278	YT	French	official	57	R1170	fr		YT
+1279	YT	Bushi		23		buc		YT
+1280	YT	Swahili		1.4		sw		YT
+1281	ZA	English	official	31	R1265	en	99	ZA
+1282	ZA	Zulu	official_regional	24		zu	50	ZA
+1283	ZA	Xhosa	official_regional	18		xh	50	ZA
+1284	ZA	Afrikaans	official_regional	13		af	99	ZA
+1285	ZA	Northern Sotho	official_regional	9.4		nso	50	ZA
+1286	ZA	Tswana	official_regional	8.2		tn	50	ZA
+1287	ZA	Southern Sotho	official_regional	7.9		st	50	ZA
+1288	ZA	Tsonga	official_regional	4.4		ts	50	ZA
+1289	ZA	Swati	official_regional	2.7		ss	50	ZA
+1290	ZA	Venda	official_regional	2.3		ve	50	ZA
+1291	ZA	Hindi		2		hi	69	ZA
+1292	ZA	South Ndebele	official_regional	1.6		nr	50	ZA
+1293	ZA	Swahili		0.0021		sw	50	ZA
+1294	ZM	Bemba		31	R1104	bem		ZM
+1295	ZM	English	official	16		en		ZM
+1296	ZM	Nyanja		15		ny		ZM
+1297	ZM	Lozi		6	R1285	loz		ZM
+1298	ZW	Shona	official	81		sn		ZW
+1299	ZW	English	official	42	R1171	en		ZW
+1300	ZW	North Ndebele	official	12		nd		ZW
+1301	ZW	Manyika		6.5		mxc		ZW
+1302	ZW	Ndau		6.1		ndc		ZW
+1303	ZW	Kalanga		5.3		kck		ZW
+1304	ZW	Nyanja		1.9		ny		ZW
+1305	ZW	Venda		0.64		ve		ZW
+1306	ZW	Tswana		0.22		tn		ZW

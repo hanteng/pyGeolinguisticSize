@@ -1,0 +1,236 @@
+l_code	content_articles	editors_per_speaker	l_name	l_url	speakers	usage_views_per_hour
+simple	110724	0.1	Simple English	http://simple.wikipedia.org	1500000000.0	23127.0
+en	4801887	21.0	English	http://en.wikipedia.org	1500000000.0	8708224.0
+zh	805441	2.0	Chinese	http://zh.wikipedia.org	1300000000.0	586257.0
+hi	105900	0.1	Hindi	http://hi.wikipedia.org	550000000.0	11072.0
+ar	612947	1.0	Arabic	http://ar.wikipedia.org	530000000.0	132215.0
+es	1122091	8.0	Spanish	http://es.wikipedia.org	500000000.0	1232249.0
+ms	273175	0.3	Malay	http://ms.wikipedia.org	300000000.0	20514.0
+pt	864655	5.0	Portuguese	http://pt.wikipedia.org	290000000.0	384320.0
+ru	1199653	12.0	Russian	http://ru.wikipedia.org	278000000.0	1022130.0
+id	600304	2.0	Indonesian	http://id.wikipedia.org	250000000.0	87644.0
+bn	34860	0.4	Bengali	http://bn.wikipedia.org	230000000.0	9609.0
+fr	1589578	22.0	French	http://fr.wikipedia.org	200000000.0	840351.0
+de	1789742	33.0	German	http://de.wikipedia.org	185000000.0	1162601.0
+ja	950915	29.0	Japanese	http://ja.wikipedia.org	132000000.0	1040629.0
+fa	446093	7.0	Persian	http://fa.wikipedia.org	107000000.0	83344.0
+pa	16977	0.3	Punjabi	http://pa.wikipedia.org	104000000.0	1363.0
+tl	63449	0.2	Tagalog	http://tl.wikipedia.org	90000000.0	10484.0
+mr	42073	0.3	Marathi	http://mr.wikipedia.org	90000000.0	4546.0
+vi	1129777	4.0	Vietnamese	http://vi.wikipedia.org	80000000.0	64527.0
+jv	58818	0.1	Javanese	http://jv.wikipedia.org	80000000.0	2559.0
+te	61022	0.9	Telugu	http://te.wikipedia.org	80000000.0	3096.0
+ko	302582	11.0	Korean	http://ko.wikipedia.org	78000000.0	78004.0
+wuu	3588	0.0	Wu	http://wuu.wikipedia.org	77000000.0	906.0
+arz	13774	0.1	Egyptian Arabic	http://arz.wikipedia.org	76000000.0	3774.0
+th	92590	4.0	Thai	http://th.wikipedia.org	73000000.0	47086.0
+zh-yue	35223	0.6	Cantonese	http://zh-yue.wikipedia.org	71000000.0	5378.0
+tr	242723	10.0	Turkish	http://tr.wikipedia.org	70000000.0	152750.0
+it	1180074	36.0	Italian	http://it.wikipedia.org	70000000.0	477944.0
+ta	66519	1.0	Tamil	http://ta.wikipedia.org	66000000.0	6011.0
+pnb	33811	0.1	Western Panjabi	http://pnb.wikipedia.org	60000000.0	1389.0
+ur	65584	0.6	Urdu	http://ur.wikipedia.org	60000000.0	3918.0
+my	34078	0.3	Burmese	http://my.wikipedia.org	52000000.0	2016.0
+sw	28044	0.2	Swahili	http://sw.wikipedia.org	50000000.0	2877.0
+zh-min-nan	12469	0.1	Min Nan	http://zh-min-nan.wikipedia.org	49000000.0	1466.0
+kn	20034	1.0	Kannada	http://kn.wikipedia.org	47000000.0	1889.0
+gu	25762	0.2	Gujarati	http://gu.wikipedia.org	46000000.0	1586.0
+uk	551549	20.0	Ukrainian	http://uk.wikipedia.org	45000000.0	91440.0
+pl	1089864	29.0	Polish	http://pl.wikipedia.org	43000000.0	441628.0
+sd	1048	0.1	Sindhi	http://sd.wikipedia.org	41000000.0	259.0
+ha	1538	0.0	Hausa	http://ha.wikipedia.org	39000000.0	320.0
+ml	38427	2.0	Malayalam	http://ml.wikipedia.org	37000000.0	4369.0
+gan	6309	0.0	Gan	http://gan.wikipedia.org	35000000.0	924.0
+hak	4530	0.1	Hakka	http://hak.wikipedia.org	34000000.0	608.0
+or	8680	0.5	Oriya	http://or.wikipedia.org	31000000.0	1185.0
+ne	27752	0.9	Nepali	http://ne.wikipedia.org	30000000.0	1688.0
+ro	260089	9.0	Romanian	http://ro.wikipedia.org	28000000.0	54517.0
+az	99755	6.0	Azeri	http://az.wikipedia.org	27000000.0	9134.0
+nl	1809041	46.0	Dutch	http://nl.wikipedia.org	27000000.0	207655.0
+su	17948	0.4	Sundanese	http://su.wikipedia.org	27000000.0	1584.0
+ku	21194	0.5	Kurdish	http://ku.wikipedia.org	26000000.0	2272.0
+ps	5518	0.2	Pashto	http://ps.wikipedia.org	26000000.0	881.0
+zu	757	0.0	Zulu	http://zu.wikipedia.org	26000000.0	431.0
+om	740	0.0	Oromo	http://om.wikipedia.org	26000000.0	335.0
+yo	31112	0.1	Yoruba	http://yo.wikipedia.org	25000000.0	1447.0
+ln	2114	0.0	Lingala	http://ln.wikipedia.org	25000000.0	796.0
+am	13469	0.2	Amharic	http://am.wikipedia.org	25000000.0	1238.0
+uz	127738	1.0	Uzbek	http://uz.wikipedia.org	24000000.0	3484.0
+sh	276021	2.0	Serbo-Croatian	http://sh.wikipedia.org	23000000.0	13397.0
+ig	1042	0.0	Igbo	http://ig.wikipedia.org	22000000.0	308.0
+ceb	1208723	0.3	Cebuano	http://ceb.wikipedia.org	20000000.0	2887.0
+mg	76452	0.1	Malagasy	http://mg.wikipedia.org	20000000.0	1739.0
+si	15132	0.9	Sinhala	http://si.wikipedia.org	19000000.0	1469.0
+km	5465	0.5	Khmer	http://km.wikipedia.org	18000000.0	1299.0
+el	103834	19.0	Greek	http://el.wikipedia.org	15000000.0	33375.0
+hu	282642	36.0	Hungarian	http://hu.wikipedia.org	15000000.0	69306.0
+tw	571	0.0	Twi	http://tw.wikipedia.org	15000000.0	214.0
+map-bms	13220	0.0	Banyumasan	http://map-bms.wikipedia.org	14000000.0	962.0
+so	4249	0.6	Somali	http://so.wikipedia.org	14000000.0	865.0
+as	3170	1.0	Assamese	http://as.wikipedia.org	13000000.0	931.0
+af	34337	2.0	Afrikaans	http://af.wikipedia.org	13000000.0	7391.0
+bar	10681	0.9	Bavarian	http://bar.wikipedia.org	12000000.0	1899.0
+kk	211970	6.0	Kazakh	http://kk.wikipedia.org	12000000.0	11397.0
+bg	188629	20.0	Bulgarian	http://bg.wikipedia.org	12000000.0	33164.0
+cs	313719	51.0	Czech	http://cs.wikipedia.org	12000000.0	98262.0
+sr	314964	20.0	Serbian	http://sr.wikipedia.org	12000000.0	23767.0
+ht	53423	0.2	Haitian	http://ht.wikipedia.org	12000000.0	1247.0
+qu	19432	0.4	Quechua	http://qu.wikipedia.org	10000000.0	1491.0
+sv	3072911	72.0	Swedish	http://sv.wikipedia.org	10000000.0	121491.0
+nds	22406	0.7	Low Saxon	http://nds.wikipedia.org	10000000.0	2440.0
+nds-nl	5390	0.5	Dutch Low Saxon	http://nds-nl.wikipedia.org	10000000.0	968.0
+als	17888	2.0	Alemannic	http://als.wikipedia.org	10000000.0	2953.0
+ug	4230	0.2	Uyghur	http://ug.wikipedia.org	10000000.0	700.0
+ilo	6234	0.2	Ilokano	http://ilo.wikipedia.org	10000000.0	1201.0
+lg	423	0.3	Ganda	http://lg.wikipedia.org	10000000.0	132.0
+cdo	2052	0.1	Min Dong	http://cdo.wikipedia.org	9000000.0	421.0
+ca	449702	59.0	Catalan	http://ca.wikipedia.org	9000000.0	40390.0
+tk	5883	0.3	Turkmen	http://tk.wikipedia.org	9000000.0	1029.0
+kab	2606	0.5	Kabyle	http://ka.wikipedia.org	8000000.0	393.0
+tt	66429	2.0	Tatar	http://tt.wikipedia.org	8000000.0	2039.0
+scn	24968	0.9	Sicilian	http://scn.wikipedia.org	8000000.0	1815.0
+xh	415	0.3	Xhosa	http://xh.wikipedia.org	8000000.0	326.0
+nap	14311	0.5	Neapolitan	http://nap.wikipedia.org	8000000.0	976.0
+bo	9356	0.4	Tibetan	http://bo.wikipedia.org	7000000.0	1584.0
+sk	199326	18.0	Slovak	http://sk.wikipedia.org	7000000.0	23193.0
+sn	2447	0.1	Shona	http://sn.wikipedia.org	7000000.0	398.0
+gn	2968	0.1	Guarani	http://gn.wikipedia.org	7000000.0	951.0
+be	81074	11.0	Belarusian	http://be.wikipedia.org	6000000.0	11151.0
+be-x-old	55481	5.0		http://be-x-old.wikipedia.org	6000000.0	4053.0
+min	221588	0.6	Minangkabau	http://min.wikipedia.org	6000000.0	746.0
+hr	139475	22.0	Croatian	http://hr.wikipedia.org	6000000.0	26235.0
+fi	365638	88.0	Finnish	http://fi.wikipedia.org	6000000.0	68560.0
+da	195220	39.0	Danish	http://da.wikipedia.org	6000000.0	41235.0
+sq	55825	8.0	Albanian	http://sq.wikipedia.org	6000000.0	6248.0
+hy	144898	36.0	Armenian	http://hy.wikipedia.org	6000000.0	7317.0
+tpi	1381	0.2	Tok Pisin	http://tpi.wikipedia.org	6000000.0	353.0
+he	168621	133.0	Hebrew	http://he.wikipedia.org	5000000.0	50736.0
+mn	15742	5.0	Mongolian	http://mn.wikipedia.org	5000000.0	3632.0
+lo	2114	0.2	Laotian	http://lo.wikipedia.org	5000000.0	723.0
+ky	29446	2.0	Kirghiz	http://ky.wikipedia.org	5000000.0	1686.0
+st	235	0.2	Sesotho	http://st.wikipedia.org	5000000.0	317.0
+nn	119134	8.0	Nynorsk	http://nn.wikipedia.org	5000000.0	6658.0
+no	406795	81.0	Norwegian	http://no.wikipedia.org	5000000.0	52384.0
+tn	538	0.2	Setswana	http://tn.wikipedia.org	4000000.0	291.0
+tg	30750	2.0	Tajik	http://tg.wikipedia.org	4000000.0	1190.0
+ka	90178	14.0	Georgian	http://ka.wikipedia.org	4000000.0	8943.0
+ckb	15275	4.0	Sorani	http://ckb.wikipedia.org	4000000.0	2082.0
+bug	14097	0.2	Buginese	http://bug.wikipedia.org	4000000.0	598.0
+mzn	12146	0.3	Mazandarani	http://mzn.wikipedia.org	4000000.0	1007.0
+wo	1208	0.0	Wolof	http://wo.wikipedia.org	4000000.0	509.0
+lt	169973	32.0	Lithuanian	http://lt.wikipedia.org	4000000.0	19755.0
+bjn	1494	0.0	Banjar	http://bjn.wikipedia.org	4000000.0	441.0
+gl	119824	23.0	Galician	http://gl.wikipedia.org	4000000.0	8219.0
+glk	6384	0.6	Gilaki	http://glk.wikipedia.org	3000000.0	212.0
+ts	315	0.3	Tsonga	http://ts.wikipedia.org	3000000.0	370.0
+yi	12508	3.0	Yiddish	http://yi.wikipedia.org	3000000.0	1785.0
+war	1259034	4.0	Waray-Waray	http://war.wikipedia.org	3000000.0	4134.0
+ace	2619	0.7	Acehnese	http://ace.wikipedia.org	3000000.0	672.0
+lmo	31552	3.0	Lombard	http://lmo.wikipedia.org	3000000.0	1498.0
+pam	8495	0.3	Kapampangan	http://pam.wikipedia.org	3000000.0	867.0
+mk	80712	14.0	Macedonian	http://mk.wikipedia.org	3000000.0	7567.0
+bs	57433	13.0	Bosnian	http://bs.wikipedia.org	3000000.0	7646.0
+bcl	6602	0.8	Central Bicolano	http://bcl.wikipedia.org	2000000.0	748.0
+sl	144162	53.0	Slovene	http://sl.wikipedia.org	2000000.0	18255.0
+vec	10545	3.0	Venetian	http://vec.wikipedia.org	2000000.0	1374.0
+ay	3853	0.5	Aymara	http://ay.wikipedia.org	2000000.0	490.0
+arc	1629	0.0	Aramaic	http://arc.wikipedia.org	2000000.0	413.0
+pms	63688	3.0	Piedmontese	http://pms.wikipedia.org	2000000.0	1251.0
+diq	5441	1.0	Zazaki	http://diq.wikipedia.org	2000000.0	1025.0
+eml	3512	2.0	Emilian-Romagnol	http://eml.wikipedia.org	2000000.0	634.0
+ba	33650	8.0	Bashkir	http://ba.wikipedia.org	2000000.0	1458.0
+lij	3216	0.5	Ligurian	http://lij.wikipedia.org	2000000.0	539.0
+oc	88051	9.0	Occitan	http://oc.wikipedia.org	2000000.0	3960.0
+sc	5104	3.0	Sardinian	http://sc.wikipedia.org	2000000.0	682.0
+lv	59186	53.0	Latvian	http://lv.wikipedia.org	2000000.0	9559.0
+li	8688	4.0	Limburgish	http://li.wikipedia.org	2000000.0	1435.0
+sco	29786	4.0	Scots	http://sco.wikipedia.org	2000000.0	2349.0
+pag	4999	0.0	Pangasinan	http://pag.wikipedia.org	2000000.0	353.0
+nah	10382	3.0	Nahuatl	http://nah.wikipedia.org	1000000.0	1146.0
+ce	78926	4.0	Chechen	http://ce.wikipedia.org	1000000.0	1119.0
+cv	30416	5.0	Chuvash	http://cv.wikipedia.org	1000000.0	1602.0
+et	131119	114.0	Estonian	http://et.wikipedia.org	1000000.0	15407.0
+eu	205916	61.0	Basque	http://eu.wikipedia.org	1000000.0	9251.0
+vls	5336	6.0	West Flemish	http://vls.wikipedia.org	1000000.0	789.0
+eo	209393	98.0	Esperanto	http://eo.wikipedia.org	1000000.0	9877.0
+roa-tara	9203	1.0	Tarantino	http://roa-tara.wikipedia.org	900000.0	601.0
+new	72026	2.0	Nepal Bhasa	http://new.wikipedia.org	800000.0	1040.0
+tet	889	1.0	Tetum	http://tet.wikipedia.org	800000.0	313.0
+fur	3242	3.0	Friulian	http://fur.wikipedia.org	794000.0	566.0
+lez	2130	4.0	Lezgian	http://lez.wikipedia.org	784000.0	361.0
+cy	63209	32.0	Welsh	http://cy.wikipedia.org	750000.0	3750.0
+fy	31431	17.0	Frisian	http://fy.wikipedia.org	650000.0	2029.0
+cbk-zam	2907	0.0	Chavacano	http://cbk-zam.wikipedia.org	607000.0	464.0
+wa	14130	3.0	Walloon	http://wa.wikipedia.org	600000.0	986.0
+rue	5783	2.0	Rusyn	http://rue.wikipedia.org	600000.0	691.0
+udm	3574	5.0	Udmurt	http://udm.wikipedia.org	550000.0	396.0
+ga	32869	26.0	Irish	http://ga.wikipedia.org	530000.0	2252.0
+os	10151	4.0	Ossetic	http://os.wikipedia.org	520000.0	966.0
+bat-smg	13789	6.0	Samogitian	http://bat-smg.wikipedia.org	500000.0	958.0
+ext	2780	2.0	Extremaduran	http://ext.wikipedia.org	500000.0	554.0
+myv	1895	4.0	Erzya	http://myv.wikipedia.org	500000.0	473.0
+hif	6812	4.0	Fiji Hindi	http://hif.wikipedia.org	460000.0	1007.0
+sah	10670	18.0	Sakha	http://sah.wikipedia.org	456000.0	1145.0
+crh	4144	7.0	Crimean Tatar	http://crh.wikipedia.org	456000.0	615.0
+bpy	25223	2.0	Bishnupriya Manipuri	http://bpy.wikipedia.org	450000.0	987.0
+kaa	1773	10.0	Karakalpak	http://kaa.wikipedia.org	410000.0	368.0
+bxr	1266	5.0	Buryat	http://bxr.wikipedia.org	400000.0	461.0
+lb	43084	51.0	Luxembourgish	http://lb.wikipedia.org	390000.0	3164.0
+mt	3113	8.0	Maltese	http://mt.wikipedia.org	370000.0	1842.0
+pap	1411	6.0	Papiamentu	http://pap.wikipedia.org	329000.0	361.0
+is	38796	94.0	Icelandic	http://is.wikipedia.org	320000.0	4316.0
+krc	1968	3.0	Karachay-Balkar	http://krc.wikipedia.org	310000.0	510.0
+mrj	7290	0.0	Western Mari	http://mrj.wikipedia.org	300000.0	541.0
+roa-rup	1070	3.0	Aromanian	http://roa-rup.wikipedia.org	300000.0	448.0
+mhr	6957	7.0	Eastern Mari	http://mhr.wikipedia.org	300000.0	903.0
+kv	4466	7.0	Komi	http://kv.wikipedia.org	293000.0	628.0
+tyv	1235	18.0	Tuvan	http://tyv.wikipedia.org	280000.0	177.0
+ast	20093	33.0	Asturian	http://ast.wikipedia.org	275000.0	1940.0
+ksh	2757	0.0	Ripuarian	http://ksh.wikipedia.org	250000.0	593.0
+pdc	1898	4.0	Pennsylvania German	http://pdc.wikipedia.org	250000.0	414.0
+co	4992	8.0	Corsican	http://co.wikipedia.org	250000.0	1240.0
+br	52537	72.0	Breton	http://br.wikipedia.org	250000.0	3110.0
+zea	4286	9.0	Zealandic	http://zea.wikipedia.org	220000.0	527.0
+bi	497	5.0	Bislama	http://bi.wikipedia.org	200000.0	341.0
+nv	2466	6.0	Navajo	http://nv.wikipedia.org	178000.0	451.0
+mi	7081	6.0	Maori	http://mi.wikipedia.org	157000.0	996.0
+ab	856	8.0	Abkhazian	http://ab.wikipedia.org	125000.0	371.0
+frp	2435	9.0	Arpitan	http://frp.wikipedia.org	113000.0	643.0
+lad	3355	9.0	Ladino	http://lad.wikipedia.org	109000.0	561.0
+koi	3459	0.0	Komi-Permyak	http://koi.wikipedia.org	94000.0	318.0
+fo	10935	100.0	Faroese	http://fo.wikipedia.org	70000.0	1483.0
+fiu-vro	5388	29.0	Voro	http://fiu-vro.wikipedia.org	70000.0	715.0
+gd	16172	143.0	Scots Gaelic	http://gdi.wikipedia.org	70000.0	1443.0
+av	1413	33.0	Avar	http://av.wikipedia.org	60000.0	339.0
+szl	3463	54.0	Silesian	http://szl.wikipedia.org	56000.0	711.0
+sa	11182	180.0	Sanskrit	http://sa.wikipedia.org	50000.0	882.0
+csb	4568	0.0	Cassubian	http://csb.wikipedia.org	50000.0	723.0
+kl	1641	0.0	Greenlandic	http://kl.wikipedia.org	50000.0	589.0
+hsb	8734	100.0	Upper Sorbian	http://hsb.wikipedia.org	40000.0	1020.0
+rm	3561	57.0	Romansh	http://rm.wikipedia.org	35000.0	596.0
+iu	411	33.0	Inuktitut	http://iu.wikipedia.org	30000.0	284.0
+haw	1975	37.0	Hawai'ian	http://haw.wikipedia.org	27000.0	260.0
+se	7260	50.0	Northern Sami	http://se.wikipedia.org	20000.0	1025.0
+mwl	2786	0.0	Mirandese	http://mwl.wikipedia.org	15000.0	676.0
+dsb	2782	214.0	Lower Sorbian	http://dsb.wikipedia.org	14000.0	649.0
+an	30534	800.0	Aragonese	http://an.wikipedia.org	10000.0	3162.0
+frr	3463	400.0	North Frisian	http://frr.wikipedia.org	10000.0	668.0
+na	1251	0.0	Nauruan	http://na.wikipedia.org	6000.0	511.0
+io	26290	1667.0	Ido	http://io.wikipedia.org	3000.0	1799.0
+ik	558	952.0	Inupiak	http://ik.wikipedia.org	2000.0	214.0
+stq	3660	1000.0	Saterland Frisian	http://stq.wikipedia.org	2000.0	614.0
+gv	4826	0.0	Manx	http://gv.wikipedia.org	2000.0	1186.0
+pih	475	0.0	Norfolk	http://pih.wikipedia.org	600.0	270.0
+ia	14388	16667.0	Interlingua	http://ia.wikipedia.org	300.0	1440.0
+kw	3581	4082.0	Cornish	http://kw.wikipedia.org	245.0	827.0
+vo	119681	350000.0	Volapük	http://vo.wikipedia.org	20.0	1700.0
+vep	4135	500000.0	Vepsian	http://vep.wikipedia.org	6.0	539.0
+zh-classical	3916		Classical Chinese	http://zh-classical.wikipedia.org		912.0
+la	112869		Latin	http://la.wikipedia.org		6178.0
+cu	564		Old Church Slavonic	http://cv.wikipedia.org		296.0
+bh	5101		Bihari	http://bh.wikipedia.org		514.0
+jbo	1236		Lojban	http://jbo.wikipedia.org		577.0
+nov	1582		Novial	http://nov.wikipedia.org		519.0
+ang	2656		Anglo-Saxon	http://ang.wikipedia.org		1153.0
+ie	2753		Interlingue	http://ie.wikipedia.org		687.0
+pcd	2907		Picard	http://pcd.wikipedia.org		387.0

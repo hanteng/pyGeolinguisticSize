@@ -1,56 +1,56 @@
 	l_code	l_name	Note
-0	pih	Norfolk	
-1	ang	Anglo-Saxon	
-2	zh	Chinese	
-3	simple	Simple English	
-4	cdo	Min Dong	
-5	iu	Inuktitut	
-6	vo	Volapük	
-7	arc	Aramaic	
-8	io	Ido	
-9	roa-rup	Aromanian	
-10	mn	Mongolian	
-11	ie	Interlingue	
-12	als	Alemannic	
-13	nds-nl	Dutch Low Saxon	
-14	ha	Hausa	
-15	no	Norwegian	
-16	tw	Twi	
-17	nah	Nahuatl	
-18	az	Azeri	
-19	cbk-zam	Chavacano	
-20	zh-min-nan	Min Nan	
-21	tl	Tagalog	
-22	pa	Punjabi	
-23	tk	Turkmen	
-24	tg	Tajik	
-25	an	Aragonese	
-26	mwl	Mirandese	
-27	be-x-old		
-28	ku	Kurdish	
-29	zh-yue	Cantonese	
-30	bh	Bihari	
-31	jbo	Lojban	
-32	bat-smg	Samogitian	
-33	hif	Fiji Hindi	
-34	bs	Bosnian	
-35	nov	Novial	
-36	pnb	Western Panjabi	
-37	ug	Uyghur	
-38	zh-classical	Classical Chinese	
-39	bcl	Central Bicolano	
-40	uz	Uzbek	
-41	kk	Kazakh	
-42	eml	Emilian-Romagnol	
-43	bxr	Buryat	
-44	fiu-vro	Voro	
-45	ky	Kirghiz	
-46	sr	Serbian	
-47	sh	Serbo-Croatian	
-48	ms	Malay	
-49	roa-tara	Tarantino	
-50	map-bms	Banyumasan	
-51	crh	Crimean Tatar	
-52	mhr	Eastern Mari	
-53	diq	Zazaki	
-54	sd	Sindhi	
+0	bh	Bihari	
+1	nov	Novial	
+2	tw	Twi	
+3	uz	Uzbek	
+4	pih	Norfolk	
+5	fiu-vro	Voro	
+6	mn	Mongolian	
+7	simple	Simple English	
+8	ku	Kurdish	
+9	tl	Tagalog	
+10	an	Aragonese	
+11	sr	Serbian	
+12	iu	Inuktitut	
+13	roa-tara	Tarantino	
+14	zh	Chinese	
+15	zh-yue	Cantonese	
+16	nah	Nahuatl	
+17	diq	Zazaki	
+18	cdo	Min Dong	
+19	ang	Anglo-Saxon	
+20	map-bms	Banyumasan	
+21	cbk-zam	Chavacano	
+22	tk	Turkmen	
+23	ug	Uyghur	
+24	bxr	Buryat	
+25	io	Ido	
+26	kk	Kazakh	
+27	ms	Malay	
+28	ha	Hausa	
+29	als	Alemannic	
+30	sh	Serbo-Croatian	
+31	be-x-old		
+32	roa-rup	Aromanian	
+33	az	Azeri	
+34	ie	Interlingue	
+35	pa	Punjabi	
+36	zh-min-nan	Min Nan	
+37	arc	Aramaic	
+38	tg	Tajik	
+39	jbo	Lojban	
+40	no	Norwegian	
+41	vo	Volapük	
+42	pnb	Western Panjabi	
+43	sd	Sindhi	
+44	ky	Kirghiz	
+45	bs	Bosnian	
+46	zh-classical	Classical Chinese	
+47	nds-nl	Dutch Low Saxon	
+48	mhr	Eastern Mari	
+49	eml	Emilian-Romagnol	
+50	bat-smg	Samogitian	
+51	bcl	Central Bicolano	
+52	mwl	Mirandese	
+53	hif	Fiji Hindi	
+54	crh	Crimean Tatar	

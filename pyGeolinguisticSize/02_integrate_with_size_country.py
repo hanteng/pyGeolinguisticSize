@@ -2,9 +2,14 @@
 #歧視無邊，回頭是岸。鍵起鍵落，情真情幻。
 
 import pyCountrySize
+import logging
 
-import ConfigParser
-Config = ConfigParser.ConfigParser()
+try:
+    import configparser
+except ImportError:
+    import ConfigParser as configparser
+
+Config = configparser.ConfigParser()  
 Config.read("config.ini")
 
 dir_source = Config.get("Directory", 'source')
@@ -24,9 +29,9 @@ list_df={"t":'df_territory_basic.pkl',\
 df=dict()
 
 for i in list_df.keys():
-    df[i]=pd.io.pickle.read_pickle(os.path.join(dir_source,list_df[i]))
-    print "df[\'{0}\'] has the following columns:".format(i)
-    print list (df[i].columns.values)
+    df[i]=pd.io.pickle.read_pickle(os.path.join(dir_outcome,list_df[i]))
+    logging.warning ( "df[\'{0}\'] has the following columns:".format(i)  )
+    logging.warning ( "{}".format(list (df[i].columns.values) ))
  
 
 d=df['tl'].copy()
@@ -37,7 +42,7 @@ d['ISO']=[df['m']['alpha3'][x] for x in df['tl']['c_code'].values]
 
 ## pre-processing
 d['populationPercent']=[float(x)/100.0 for x in d['populationPercent']]
-print "There are {0} territory-language pairs".format(len(d)) #1261
+print ("There are {0} territory-language pairs".format(len(d))) #1261
 d=d.set_index(['type','c_code'])
 #>>> d.columns
 #Index([u'c_code', u'l_name', u'officialStatus', u'populationPercent', u'references', u'type', u'writingPercent', u'geo', u'ISO'], dtype='object')
@@ -51,11 +56,11 @@ list_size_indicators=list(pyCountrySize.sizep.items)
 
 #indicator='IPop'
 for indicator in list_size_indicators:
-    dd[indicator]=d.join(pyCountrySize.sizep[indicator][range(2000,2015+1)], how="left", on=['ISO'])
-    a=np.array(dd[indicator][range(2000,2015+1)])
+    dd[indicator]=d.join(pyCountrySize.sizep[indicator][list(range(2000,2013+1))], how="left", on=['ISO'])
+    a=np.array(dd[indicator][list(range(2000,2013+1))])
     b=np.array(dd[indicator]['populationPercent'])
     c=a.transpose()*b
-    dd[indicator][range(2000,2015+1)]=c.transpose()
+    dd[indicator][list(range(2000,2013+1))]=c.transpose()
 tl_panel=pd.Panel(dd)
 
 tl_panel.to_pickle(os.path.join(dir_outcome,fn_output))

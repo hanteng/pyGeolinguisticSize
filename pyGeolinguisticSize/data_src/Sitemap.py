@@ -4,10 +4,16 @@ from lxml.html import fromstring, tostring, parse
 from io import StringIO, BytesIO
 import pandas as pd
 
+import logging
+
 import os
 os.chdir("..")
-import ConfigParser
-Config = ConfigParser.ConfigParser()
+try:
+    import configparser
+except ImportError:
+    import ConfigParser as configparser
+
+Config = configparser.ConfigParser()    
 Config.read("config.ini")
 
 dir_source = Config.get("Directory", 'source')
@@ -23,14 +29,14 @@ fn_operating=os.path.join(dir_source,data_src.split('/')[-1])
 try:
     tree = parse(fn_operating)
 except:
-    XML_src_url=unicode(data_src) #u'http://stats.wikimedia.org/EN/Sitemap.htm'
+    XML_src_url=data_src #u'http://stats.wikimedia.org/EN/Sitemap.htm'
 
     import requests
     r = requests.get(XML_src_url, stream=True)
     r.raw.decode_content = True
 
-    if r.status_code<>200:
-        print "Downloading the data from {0} failed. Plese check Internet connections.".format(XML_src_url)
+    if not( r.status_code == 200):
+        logging.warning ("Downloading the data from {0} failed. Plese check Internet connections.".format(XML_src_url))
         exit()
 
     ##Requests will automatically decode content from the server [as r.text]. ... You can also access the response body as bytes [as r.content].
@@ -60,7 +66,7 @@ for j,m in enumerate(list_matched):
     r=dict()
     for i in mapping_x_path.keys():
         try:
-            content=unicode(m.xpath(mapping_x_path[i])[0])
+            content=m.xpath(mapping_x_path[i])[0] 
         except:
             content=u""
         r[i]=content.strip()
@@ -91,11 +97,12 @@ import locale
 locale.setlocale(locale.LC_NUMERIC, '')
 df['usage_views_per_hour']=df[['usage_views_per_hour']].applymap(locale.atof)
 
-import string
-all_=string.maketrans('','')
-nodigs=all_.translate(all_, string.digits)
+import re
 
-df['content_articles']=[int(str(x).translate(all_, nodigs)) for x in df['content_articles'] ]
+df['content_articles']=[re.sub("\D", "", x) for x in df['content_articles'] ]
 
 df=df.set_index('l_code')
-df.to_pickle(os.path.join(dir_outcome,fn_output))
+file_output=os.path.join(dir_outcome,fn_output)
+df.to_pickle(file_output)
+file_output=file_output.replace(".pkl",".tsv")
+df.to_csv(file_output, sep='\t', encoding="utf8", index=True)

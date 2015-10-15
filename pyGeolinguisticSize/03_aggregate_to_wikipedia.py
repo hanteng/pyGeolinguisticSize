@@ -4,8 +4,12 @@ import pyCountrySize
 import pandas as pd
 import os
 
-import ConfigParser
-Config = ConfigParser.ConfigParser()
+try:
+    import configparser
+except ImportError:
+    import ConfigParser as configparser
+
+Config = configparser.ConfigParser()  
 Config.read("config.ini")
 
 dir_source = Config.get("Directory", 'source')
@@ -19,13 +23,13 @@ l_wiki     =pd.read_pickle(os.path.join(dir_outcome,fn_input[0]))
 l_cldr  =pd.read_pickle(os.path.join(dir_outcome,fn_input[1]))
 set_wikipedia=set(list(l_wiki.index))  #Index([u'simple', u'en', u'zh', u'hi',....
 set_unicode=set(list(l_cldr['IPop'].index))  #Index([u'aa', u'ab', u'abr', u'ace',....
-print "Length, i.e. # of languages (unicode, wikipedia),",len(set_unicode), len(set_wikipedia)
+print ("Length, i.e. # of languages (unicode, wikipedia): {}, {}".format(len(set_unicode), len(set_wikipedia)))
 # Length, i.e. # of languages (unicode, wikipedia), 647 235
 
 # Check an indicator:  Internet Population and Language Population
-print l_cldr['IPop'][2013]['zh_Hans']
+print (l_cldr['IPop'][2013]['zh_Hans'])
 # 564.215053496
-print l_cldr['LP'][2013]['zh_Hans']
+print (l_cldr['LP'][2013]['zh_Hans'])
 # 1229.242578
 
 
@@ -43,14 +47,14 @@ _right.index.name='l_code'
 table_compare= _left.reset_index().merge(_right.reset_index())
 table_compare['exact']=(table_compare['l_name']==table_compare['l_name_left'])
 table_compare.to_csv('table_compare_wiki_cldr.tsv', sep="\t", encoding="utf8")
-print len(table_compare),len(_left), len(_right), len(_intersection)
+print (len(table_compare),len(_left), len(_right), len(_intersection))
 
 
 
 
 ## Check if difference matters
 _diff=set_wikipedia.difference(set_unicode)
-print "Difference", len(_diff)
+print ("Difference", len(_diff))
 
 _left=pd.DataFrame(df[u'l_name'].drop_duplicates())
 _right=pd.DataFrame(dfl[u'l_name'].drop_duplicates())
@@ -104,12 +108,36 @@ for picked in ["PPPGDP","LP","IPop"]:
     for l in list(df_mapping.index):
         _sum=0
         for i in df_mapping.loc[l]['items']:
-            _sum=_sum+lang[picked].get(i,0)
+            _sum= _sum + lang[picked].get(i,0)
         outcome.append(_sum)
     df_mapping[picked]=outcome
 
+file_output='lang_wiki_size_mapped.pkl'
+df_mapping.to_pickle()
+file_output=file_output.replace(".pkl",".tsv")
+df_mapping.to_csv(file_output, sep='\t', encoding="utf8", index=True)
 #df_mapping.to_csv('lang_wiki_size_mapped.tsv', sep="\t", encoding="utf8")
-df_mapping.to_pickle('lang_wiki_size_mapped.pkl')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 exit()
@@ -127,8 +155,8 @@ df=dict()
 
 for i in list_df.keys():
     df[i]=pd.io.pickle.read_pickle(os.path.join(dir_source,list_df[i]))
-    print "df[\'{0}\'] has the following columns:".format(i)
-    print list (df[i].columns.values)
+    print ("df[\'{0}\'] has the following columns:".format(i))
+    print (list(df[i].columns.values))
  
 
 d=df['tl'].copy()
@@ -139,7 +167,7 @@ d['ISO']=[df['m']['alpha3'][x] for x in df['tl']['c_code'].values]
 
 ## pre-processing
 d['populationPercent']=[float(x)/100.0 for x in d['populationPercent']]
-print "There are {0} territory-language pairs".format(len(d)) #1261
+print ("There are {0} territory-language pairs".format(len(d))) #1261
 d=d.set_index(['type','c_code'])
 #>>> d.columns
 #Index([u'c_code', u'l_name', u'officialStatus', u'populationPercent', u'references', u'type', u'writingPercent', u'geo', u'ISO'], dtype='object')

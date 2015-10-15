@@ -24,9 +24,9 @@ def get_package_data():
         'pyGeolinguisticSize':
         baseline_images +
         [
-            "sizedb/*.py",
+            "data_src/*.py",
             "sizedb/*.pkl", 
-            "datapkl/*.pkl", 
+            "sizedb/*.tsv", 
         ]} 
 
 
