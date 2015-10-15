@@ -9,6 +9,12 @@ try:
 except ImportError:
     import ConfigParser as configparser
 
+## setting up to run from the script directory itself
+import os
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+
 Config = configparser.ConfigParser()  
 Config.read("config.ini")
 
