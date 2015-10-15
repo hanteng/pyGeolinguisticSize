@@ -50,6 +50,9 @@ d['ISO']=[df['m']['alpha3'][x] for x in df['tl']['c_code'].values]
 d['populationPercent']=[float(x)/100.0 for x in d['populationPercent']]
 print ("There are {0} territory-language pairs".format(len(d))) #1261
 d=d.set_index(['type','c_code'])
+
+df["t"]["c_name"]=df["t"]['comments']
+
 #>>> d.columns
 #Index([u'c_code', u'l_name', u'officialStatus', u'populationPercent', u'references', u'type', u'writingPercent', u'geo', u'ISO'], dtype='object')
 
@@ -67,6 +70,13 @@ for indicator in list_size_indicators:
     b=np.array(dd[indicator]['populationPercent'])
     c=a.transpose()*b
     dd[indicator][list(range(2000,2013+1))]=c.transpose()
+
+    # adding indicators to d
+    label = indicator + "_geo"
+    pyCountryObject = eval ("pyCountrySize." + indicator)
+    d[label] = [pyCountryObject.get(x, None) for x in d['ISO'].values]
+    d[indicator] = d[label] * d['populationPercent']
+    
 tl_panel=pd.Panel(dd)
 
 tl_panel.to_pickle(os.path.join(dir_outcome,fn_output))
