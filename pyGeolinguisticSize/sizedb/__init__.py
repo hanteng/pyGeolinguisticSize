@@ -73,8 +73,12 @@ except:
     size_l.to_pickle(os.path.join(_ROOT,"_l_size.pkl"))
 
 
-## Aggregation results bases on languages in Wikipedia
+## Aggregation results based on languages in Wikipedia
 size_l_wiki=pd.read_pickle(os.path.join(_ROOT,"wiki_lang_panel_aggregated.pkl"))
+
+## Simplified results
+simplified=pd.read_pickle(os.path.join(_ROOT,"size_geolinguistic.pkl"))
+
 
 '''
 >>> size_l_wiki.loc[:,:,2013].head()

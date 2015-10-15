@@ -105,5 +105,9 @@ output_selected=d[list_CLDRmeta+list_indicators]
 #summary_geoling.sort(['PPPGDP', 'LP'], ascending=[0, 0])
 
 #output sort by type/lang and geo
-output_selected.sort(['type','geo']).set_index(['tag']).to_csv("size_geolinguistic.tsv", sep="\t", float_format="%4.4f", encoding = "utf8")
+simplified = output_selected.sort(['type','geo']).set_index(['tag'])
+outputfile = "size_geolinguistic.tsv"
+simplified.to_csv ( os.path.join(dir_outcome, outputfile), sep="\t", float_format="%4.4f", encoding = "utf8")
+simplified.to_pickle ( os.path.join(dir_outcome, outputfile.replace(".tsv",".pkl") )   )
+
 
