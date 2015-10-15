@@ -7,7 +7,8 @@ import os
 
 __all__ = ["wiki_sitemap", "wiki_pageviews",\
            "mapping", "langname", "territory", "territory_lang", \
-           "size_gl", "size_gl_IPop", "size_l", "size_l_wiki",]
+           "size_gl", "size_gl_IPop", "size_l", "size_l_wiki", \
+           "simplified"]
 __all__ = [str(u) for u in __all__]
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
@@ -78,7 +79,7 @@ size_l_wiki=pd.read_pickle(os.path.join(_ROOT,"wiki_lang_panel_aggregated.pkl"))
 
 ## Simplified results
 simplified=pd.read_pickle(os.path.join(_ROOT,"size_geolinguistic.pkl"))
-
+
 
 '''
 >>> size_l_wiki.loc[:,:,2013].head()

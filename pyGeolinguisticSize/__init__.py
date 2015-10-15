@@ -7,6 +7,6 @@ from __future__ import (absolute_import, division, print_function,
 # version of ggplot.
 __version__ = '0.0.3'
 
-from .sizedb import (wiki_sitemap, wiki_pageviews, mapping, langname, territory, territory_lang, size_gl, size_gl_IPop, size_l, size_l_wiki,)
+from .sizedb import (wiki_sitemap, wiki_pageviews, mapping, langname, territory, territory_lang, size_gl, size_gl_IPop, size_l, size_l_wiki, simplified,)
 
 
