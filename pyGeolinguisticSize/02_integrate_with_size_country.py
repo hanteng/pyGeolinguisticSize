@@ -77,4 +77,9 @@ tl_panel.to_pickle(os.path.join(dir_outcome,fn_output))
 #type     c_code
 #zh_Hans  CN        560.9053
 
+# Generate size_geolinguistic.tsv
+d=d.reset_index()
+d['tag']=d.type + "-" + d.c_code
+
+d.sort(['type','geo']).set_index(['tag']).to_csv("size_geolinguistic.tsv", sep="\t", float_format="%4.4f", encoding = "utf8")
 

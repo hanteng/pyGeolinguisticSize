@@ -1,0 +1,165 @@
+	Language	Country	Country Name	Internet Population	IPop
+1	en	US	United States	255.73	719.34
+2	en	GB	United Kingdom	57.00	719.34
+3	en	DE	Germany	43.42	719.34
+4	en	IN	India	35.67	719.34
+5	en	NG	Nigeria	34.09	719.34
+6	en	CA	Canada	25.90	719.34
+7	en	PH	Philippines	23.08	719.34
+8	en	FR	France	20.34	719.34
+9	en	AU	Australia	18.58	719.34
+11	en	EG	Egypt	14.52	719.34
+12	en	NL	Netherlands	14.21	719.34
+13	en	IT	Italy	11.86	719.34
+14	en	PK	Pakistan	9.95	719.34
+15	en	BR	Brazil	8.30	719.34
+16	en	ZA	South Africa	8.03	719.34
+17	en	ES	Spain	8.01	719.34
+18	en	PL	Poland	7.99	719.34
+19	en	SE	Sweden	7.85	719.34
+20	en	MX	Mexico	6.69	719.34
+21	en	TR	Turkey	6.01	719.34
+22	en	BE	Belgium	5.41	719.34
+23	en	TH	Thailand	5.33	719.34
+25	en	AT	Austria	4.99	719.34
+26	en	SD	Sudan	4.76	719.34
+27	en	IL	Israel	4.74	719.34
+28	en	DK	Denmark	4.55	719.34
+29	en	CH	Switzerland	4.23	719.34
+30	en	MY	Malaysia	4.21	719.34
+31	en	SG	Singapore	3.67	719.34
+32	en	IE	Ireland	3.66	719.34
+33	en	NZ	New Zealand	3.64	719.34
+34	en	FI	Finland	3.49	719.34
+36	en	GR	Greece	3.38	719.34
+37	en	RO	Romania	3.28	719.34
+38	en	KE	Kenya	3.10	719.34
+40	en	HK	Hong Kong SAR China	2.73	719.34
+41	en	MA	Morocco	2.58	719.34
+42	en	CZ	Czech Republic	2.10	719.34
+44	en	BD	Bangladesh	1.83	719.34
+45	en	PT	Portugal	1.76	719.34
+46	en	AR	Argentina	1.74	719.34
+47	en	HU	Hungary	1.44	719.34
+48	en	TZ	Tanzania	1.40	719.34
+49	en	HR	Croatia	1.40	719.34
+50	en	KZ	Kazakhstan	1.39	719.34
+51	en	JO	Jordan	1.30	719.34
+52	en	LB	Lebanon	1.26	719.34
+53	en	BA	Bosnia & Herzegovina	1.18	719.34
+54	en	IQ	Iraq	1.12	719.34
+55	en	CL	Chile	1.11	719.34
+56	en	SK	Slovakia	1.10	719.34
+57	en	JM	Jamaica	1.03	719.34
+58	en	ZW	Zimbabwe	1.02	719.34
+59	en	BG	Bulgaria	0.96	719.34
+60	en	SI	Slovenia	0.88	719.34
+61	en	LT	Lithuania	0.77	719.34
+62	en	TT	Trinidad & Tobago	0.75	719.34
+63	en	ET	Ethiopia	0.73	719.34
+64	en	GH	Ghana	0.66	719.34
+65	en	MW	Malawi	0.58	719.34
+66	en	CM	Cameroon	0.53	719.34
+67	en	YE	Yemen	0.48	719.34
+68	en	LK	Sri Lanka	0.46	719.34
+69	en	DZ	Algeria	0.44	719.34
+70	en	CY	Cyprus	0.42	719.34
+73	en	MU	Mauritius	0.37	719.34
+75	en	ZM	Zambia	0.36	719.34
+78	en	FJ	Fiji	0.31	719.34
+81	en	GY	Guyana	0.26	719.34
+82	en	BS	Bahamas	0.26	719.34
+83	en	MT	Malta	0.26	719.34
+84	en	BW	Botswana	0.25	719.34
+85	en	PG	Papua New Guinea	0.24	719.34
+86	en	UG	Uganda	0.23	719.34
+87	en	PA	Panama	0.22	719.34
+88	en	SZ	Swaziland	0.22	719.34
+89	en	BB	Barbados	0.21	719.34
+90	en	LR	Liberia	0.16	719.34
+91	en	RW	Rwanda	0.14	719.34
+92	en	BZ	Belize	0.11	719.34
+93	en	NP	Nepal	0.11	719.34
+94	en	GM	Gambia	0.11	719.34
+95	en	MG	Madagascar	0.09	719.34
+96	en	VC	St. Vincent & Grenadines	0.05	719.34
+97	en	LC	St. Lucia	0.05	719.34
+98	en	AG	Antigua & Barbuda	0.05	719.34
+99	en	KN	St. Kitts & Nevis	0.05	719.34
+100	en	SB	Solomon Islands	0.04	719.34
+101	en	DM	Dominica	0.04	719.34
+102	en	SL	Sierra Leone	0.04	719.34
+103	en	GD	Grenada	0.04	719.34
+104	en	ER	Eritrea	0.03	719.34
+106	en	CN	China	0.03	719.34
+107	en	LS	Lesotho	0.03	719.34
+108	en	VU	Vanuatu	0.02	719.34
+109	en	BT	Bhutan	0.02	719.34
+110	en	NA	Namibia	0.02	719.34
+111	en	SC	Seychelles	0.02	719.34
+112	en	FM	Micronesia	0.02	719.34
+113	en	KI	Kiribati	0.01	719.34
+114	en	TO	Tonga	0.01	719.34
+116	en	HN	Honduras	0.01	719.34
+117	en	MH	Marshall Islands	0.01	719.34
+118	en	BN	Brunei	0.00	719.34
+119	en	DO	Dominican Republic	0.00	719.34
+122	en	WS	Samoa	0.00	719.34
+123	en	TV	Tuvalu	0.00	719.34
+124	en	AC	Ascension Island	0.00	719.34
+125	en	AI	Anguilla	0.00	719.34
+126	en	AS	American Samoa	0.00	719.34
+127	en	AW	Aruba	0.00	719.34
+128	en	BM	Bermuda	0.00	719.34
+129	en	CC	Cocos (Keeling) Islands	0.00	719.34
+130	en	CK	Cook Islands	0.00	719.34
+131	en	CX	Christmas Island	0.00	719.34
+132	en	DG	Diego Garcia	0.00	719.34
+133	en	FK	Falkland Islands	0.00	719.34
+134	en	GG	Guernsey	0.00	719.34
+135	en	GI	Gibraltar	0.00	719.34
+136	en	GU	Guam	0.00	719.34
+137	en	IM	Isle of Man	0.00	719.34
+138	en	IO	British Indian Ocean Territory	0.00	719.34
+139	en	JE	Jersey	0.00	719.34
+140	en	KY	Cayman Islands	0.00	719.34
+141	en	MO	Macau SAR China	0.00	719.34
+142	en	MP	Northern Mariana Islands	0.00	719.34
+143	en	MS	Montserrat	0.00	719.34
+144	en	NF	Norfolk Island	0.00	719.34
+145	en	NR	Nauru	0.00	719.34
+146	en	NU	Niue	0.00	719.34
+147	en	PM	St. Pierre & Miquelon	0.00	719.34
+148	en	PN	Pitcairn Islands	0.00	719.34
+149	en	PR	Puerto Rico	0.00	719.34
+150	en	PW	Palau	0.00	719.34
+151	en	SH	St. Helena	0.00	719.34
+152	en	SS	South Sudan	0.00	719.34
+153	en	SX	Sint Maarten	0.00	719.34
+154	en	TA	Tristan da Cunha	0.00	719.34
+155	en	TC	Turks & Caicos Islands	0.00	719.34
+156	en	TK	Tokelau	0.00	719.34
+157	en	UM	U.S. Outlying Islands	0.00	719.34
+158	en	VG	British Virgin Islands	0.00	719.34
+159	en	VI	U.S. Virgin Islands	0.00	719.34
+0	zh_Hans	CN	China	560.91	564.22
+39	zh_Hans	SG	Singapore	3.03	564.22
+79	zh_Hans	HK	Hong Kong SAR China	0.27	564.22
+115	zh_Hans	MN	Mongolia	0.01	564.22
+160	zh_Hans	MO	Macau SAR China	0.00	564.22
+10	zh_Hant	TW	Taiwan	17.76	30.23
+24	zh_Hant	HK	Hong Kong SAR China	5.09	30.23
+35	zh_Hant	MY	Malaysia	3.41	30.23
+43	zh_Hant	US	United States	1.84	30.23
+71	zh_Hant	AU	Australia	0.41	30.23
+72	zh_Hant	VN	Vietnam	0.39	30.23
+74	zh_Hant	ID	Indonesia	0.36	30.23
+76	zh_Hant	TH	Thailand	0.36	30.23
+77	zh_Hant	GB	United Kingdom	0.31	30.23
+80	zh_Hant	PH	Philippines	0.26	30.23
+105	zh_Hant	BN	Brunei	0.03	30.23
+120	zh_Hant	PA	Panama	0.00	30.23
+121	zh_Hant	SR	Suriname	0.00	30.23
+161	zh_Hant	GF	French Guiana	0.00	30.23
+162	zh_Hant	MO	Macau SAR China	0.00	30.23
+163	zh_Hant	PF	French Polynesia	0.00	30.23

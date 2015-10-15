@@ -1,0 +1,165 @@
+	Language	Country	Country Name	Economy Size PPPGDP
+1	en	US	United States	16097.33
+2	zh_Hans	CN	China	14534.18
+3	en	GB	United Kingdom	2297.24
+4	en	DE	Germany	2248.17
+5	en	CA	Canada	1305.83
+6	en	IN	India	1287.43
+7	en	AU	Australia	1010.50
+8	en	FR	France	988.46
+9	zh_Hant	TW	Taiwan	922.36
+10	en	NL	Netherlands	702.26
+11	en	IT	Italy	692.05
+12	en	NG	Nigeria	515.50
+13	en	PK	Pakistan	417.54
+14	en	PH	Philippines	411.57
+15	en	SG	Singapore	395.48
+16	zh_Hant	HK	Hong Kong SAR China	363.40
+17	en	SE	Sweden	359.67
+18	en	ES	Spain	357.31
+19	zh_Hans	SG	Singapore	327.44
+20	en	EG	Egypt	318.43
+21	en	PL	Poland	295.94
+22	en	AT	Austria	275.01
+23	en	BE	Belgium	268.42
+24	en	MX	Mexico	267.66
+25	en	CH	Switzerland	263.50
+26	en	TH	Thailand	260.42
+27	en	TR	Turkey	245.40
+28	en	BR	Brazil	241.03
+29	en	IL	Israel	218.88
+30	en	IE	Ireland	209.04
+31	en	DK	Denmark	207.15
+32	en	ZA	South Africa	205.41
+33	en	HK	Hong Kong SAR China	195.09
+34	en	IQ	Iraq	174.87
+35	en	FI	Finland	152.81
+36	en	NZ	New Zealand	147.68
+37	en	MY	Malaysia	145.65
+38	en	GR	Greece	141.76
+39	zh_Hant	MY	Malaysia	117.91
+40	zh_Hant	US	United States	115.70
+41	en	RO	Romania	115.08
+42	en	SD	Sudan	92.88
+43	en	BD	Bangladesh	89.28
+44	en	CZ	Czech Republic	77.65
+45	en	PT	Portugal	72.57
+46	en	AR	Argentina	64.95
+47	en	KZ	Kazakhstan	59.32
+48	en	TZ	Tanzania	58.57
+49	en	ET	Ethiopia	54.50
+50	en	HU	Hungary	45.91
+51	en	HR	Croatia	42.42
+52	en	CL	Chile	37.58
+53	en	SK	Slovakia	37.44
+54	en	DZ	Algeria	36.58
+55	en	TT	Trinidad & Tobago	35.72
+56	en	SI	Slovenia	34.63
+57	en	JO	Jordan	34.28
+58	en	MA	Morocco	33.83
+59	en	LB	Lebanon	30.96
+60	en	BG	Bulgaria	29.89
+61	en	LT	Lithuania	28.66
+62	en	BW	Botswana	25.67
+63	en	CM	Cameroon	23.91
+64	en	KE	Kenya	23.90
+65	en	JM	Jamaica	23.15
+66	zh_Hant	AU	Australia	22.10
+67	zh_Hant	ID	Indonesia	21.98
+68	en	GH	Ghana	21.63
+69	en	LK	Sri Lanka	19.95
+70	zh_Hans	HK	Hong Kong SAR China	19.13
+71	en	CY	Cyprus	18.50
+72	zh_Hant	TH	Thailand	17.36
+73	en	BA	Bosnia & Herzegovina	16.69
+74	en	MU	Mauritius	16.05
+75	zh_Hant	GB	United Kingdom	12.53
+76	en	MT	Malta	11.33
+77	en	ZW	Zimbabwe	10.77
+78	en	PA	Panama	9.94
+79	en	YE	Yemen	9.21
+80	en	ZM	Zambia	9.13
+81	en	BS	Bahamas	8.78
+82	en	PG	Papua New Guinea	8.41
+83	en	MW	Malawi	8.06
+84	en	SS	South Sudan	7.05
+85	en	SZ	Swaziland	6.68
+86	en	FJ	Fiji	6.49
+87	en	MG	Madagascar	5.78
+88	en	GY	Guyana	5.23
+89	zh_Hant	VN	Vietnam	4.75
+90	zh_Hant	PH	Philippines	4.69
+91	en	ER	Eritrea	4.47
+92	en	BB	Barbados	4.46
+93	en	SL	Sierra Leone	4.11
+94	zh_Hant	BN	Brunei	3.30
+95	en	LR	Liberia	3.00
+96	en	BZ	Belize	2.80
+97	en	RW	Rwanda	2.60
+98	en	UG	Uganda	2.41
+99	en	NP	Nepal	1.87
+100	en	LC	St. Lucia	1.69
+101	en	AG	Antigua & Barbuda	1.65
+102	en	NA	Namibia	1.56
+103	en	LS	Lesotho	1.42
+104	en	GM	Gambia	1.23
+105	en	GD	Grenada	1.17
+106	en	KN	St. Kitts & Nevis	1.14
+107	en	VC	St. Vincent & Grenadines	1.11
+108	en	SB	Solomon Islands	1.03
+109	en	SC	Seychelles	0.83
+110	en	CN	China	0.73
+111	en	DM	Dominica	0.69
+112	en	BT	Bhutan	0.60
+113	en	BN	Brunei	0.57
+114	en	VU	Vanuatu	0.54
+115	zh_Hans	MN	Mongolia	0.38
+116	en	FM	Micronesia	0.18
+117	en	KI	Kiribati	0.17
+118	en	HN	Honduras	0.16
+119	en	MH	Marshall Islands	0.16
+120	en	TO	Tonga	0.14
+121	zh_Hant	PA	Panama	0.12
+122	zh_Hant	SR	Suriname	0.11
+123	en	DO	Dominican Republic	0.10
+124	en	PW	Palau	0.02
+125	en	WS	Samoa	0.02
+126	en	TV	Tuvalu	0.00
+127	en	AC	Ascension Island	0.00
+128	en	AI	Anguilla	0.00
+129	en	AS	American Samoa	0.00
+130	en	AW	Aruba	0.00
+131	en	BM	Bermuda	0.00
+132	en	CC	Cocos (Keeling) Islands	0.00
+133	en	CK	Cook Islands	0.00
+134	en	CX	Christmas Island	0.00
+135	en	DG	Diego Garcia	0.00
+136	en	FK	Falkland Islands	0.00
+137	en	GG	Guernsey	0.00
+138	en	GI	Gibraltar	0.00
+139	en	GU	Guam	0.00
+140	en	IM	Isle of Man	0.00
+141	en	IO	British Indian Ocean Territory	0.00
+142	en	JE	Jersey	0.00
+143	en	KY	Cayman Islands	0.00
+144	en	MO	Macau SAR China	0.00
+145	en	MP	Northern Mariana Islands	0.00
+146	en	MS	Montserrat	0.00
+147	en	NF	Norfolk Island	0.00
+148	en	NR	Nauru	0.00
+149	en	NU	Niue	0.00
+150	en	PM	St. Pierre & Miquelon	0.00
+151	en	PN	Pitcairn Islands	0.00
+152	en	PR	Puerto Rico	0.00
+153	en	SH	St. Helena	0.00
+154	en	SX	Sint Maarten	0.00
+155	en	TA	Tristan da Cunha	0.00
+156	en	TC	Turks & Caicos Islands	0.00
+157	en	TK	Tokelau	0.00
+158	en	UM	U.S. Outlying Islands	0.00
+159	en	VG	British Virgin Islands	0.00
+160	en	VI	U.S. Virgin Islands	0.00
+161	zh_Hans	MO	Macau SAR China	0.00
+162	zh_Hant	GF	French Guiana	0.00
+163	zh_Hant	MO	Macau SAR China	0.00
+164	zh_Hant	PF	French Polynesia	0.00
