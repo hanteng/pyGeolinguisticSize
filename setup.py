@@ -25,6 +25,7 @@ def get_package_data():
         baseline_images +
         [
             "data_src/*.py",
+            "sizedb/*.py",
             "sizedb/*.pkl", 
             "sizedb/*.tsv", 
         ]} 
