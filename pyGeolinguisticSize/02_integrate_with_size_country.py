@@ -80,6 +80,20 @@ tl_panel.to_pickle(os.path.join(dir_outcome,fn_output))
 # Generate size_geolinguistic.tsv
 d=d.reset_index()
 d['tag']=d.type + "-" + d.c_code
+## Geo/Country names
+##>>> df['t']['c_name']['TW']
+##'Taiwan'
+d['geo_name']=[df['t']['c_name'][x] for x in d['geo']]
 
-d.sort(['type','geo']).set_index(['tag']).to_csv("size_geolinguistic.tsv", sep="\t", float_format="%4.4f", encoding = "utf8")
+list_indicators=['LP','IPop','PPPGDP', 'IPv4']
+list_CLDRmeta=['tag','type','l_name','ISO','geo','geo_name','officialStatus','references']
+
+output_selected=d[list_CLDRmeta+list_indicators]
+
+#grouped = d.groupby(['type', 'geo'])
+#summary_geoling=d.groupby(['type', 'geo']).sum()
+#summary_geoling.sort(['PPPGDP', 'LP'], ascending=[0, 0])
+
+#output sort by type/lang and geo
+output_selected.sort(['type','geo']).set_index(['tag']).to_csv("size_geolinguistic.tsv", sep="\t", float_format="%4.4f", encoding = "utf8")
 
